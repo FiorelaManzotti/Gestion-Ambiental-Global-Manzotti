@@ -1,0 +1,506 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* inicio css encabezado */
+header{
+    background-color: #C3CF0A; 
+    height: auto;
+    width: 100%;
+    margin: 10px;
+	border: 10px #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} 
+/* css logo */
+header img{
+    margin: 30px;
+    border-radius: 8px;
+}
+/* inicio css menú navegación */
+.menu{
+	list-style: none;
+	background-color: #E7EEE8;
+    border-radius: 8px;
+	margin: 10px;
+    padding: 10px;
+    line-height: 25px;
+	font-size: 1rem;
+	font-family: Tahoma;
+	color: white;
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+} 
+.menu li a:hover{
+	background:#C3CF0A; 
+}
+/* fin css menú navegación */
+/* fin css encabezado */
+/* inicio css contenido principal */
+main{
+    height: auto;
+    width: 100%;
+    margin: 10px;
+}
+/* inicio css class principal */
+.principal{
+    background-color: #E7EEE8;
+    height: auto;
+	width: 100%;
+    border-radius: 10px;
+    border: 1px solid #13542D;
+    line-height: 20px;
+} 
+h1{
+	color: rgb(28, 32, 21);
+	font-size: 22px;
+	text-align: center;
+	font-family:Tahoma;
+    padding: 5px;
+} 
+h3{
+	color: rgb(28, 32, 21);
+	font-size: 17px;
+	text-align: center;
+	font-family:Tahoma;
+    padding: 5px;
+} 
+p{
+	color: #13542D;
+	font-size: 16px;
+	font-weight: bolder;
+	text-align:center;
+	font-style: italic;
+	font-family: 'Lucida Sans';
+    padding: 10px;
+} 
+/* fin css class principal */
+/* inicio css class seccionesGaleria */
+.seccionesGaleria{
+    background-color: #C3CF0A;
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 150px);
+    grid-gap: 2px;
+	grid-template-areas: 
+	"img1"
+    "img2"
+    "img3"
+    "img4"; 
+ }
+
+.item{
+    border-radius: 5px;
+    margin: 5px;
+    border: 2px solid black;
+    filter: grayscale(100%);
+    transition: all 0.7s;
+} 
+
+.item:hover{
+    transform: scale(1.10) ;
+    filter: grayscale(0%);
+    transition: all 0.7s;
+} 
+
+.item1{
+    background-image: url(../images/servicios.svg);
+    background-position: center;
+    background-size: cover;
+	grid-area: img1;
+} 
+
+ .item2{
+    background-image: url(../images/quienesSomos.svg);
+    background-position: center;
+    background-size: cover;
+	grid-area: img2;
+} 
+
+.item3{
+    background-image: url(../images/capacitaciones.svg);
+    background-position: center;
+    background-size: cover;
+	grid-area: img3;
+} 
+
+.item4{
+    background-image: url(../images/contacto.svg);
+    background-position: center;
+    background-size: cover;
+    grid-area: img4;
+} 
+/* inicio css class seccionesGaleria */
+ /* fin css contenido principal */
+ /* inicio css footer */
+footer{
+    background-color: #E7EEE8;
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+footer p{
+    margin-top: 20px;
+    align-items: center;
+    font-size: 16px;
+}
+footer i{
+    font-size: 40px;
+    color: #13542D;
+    letter-spacing: 20px;
+    margin-top: 50px;
+}
+footer iframe{
+    margin: 10px;
+}
+/* fin css footer */
+
+/* inicio CSS pagina quienes somos */
+/* inicio class nosotras */
+.nosotras{
+    background-color: #C3CF0A;
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 120px);
+    grid-gap: 1px;
+	grid-template-areas: "lu"
+                         "beta"
+                         "equipo"; 
+    font-family: 'Lucida Sans'; 
+	font-size: 16px; 
+	font-weight: bold; 
+    text-align: center;
+    align-items: center;
+ }
+
+.luciana{
+	grid-area: lu;
+    border-radius: 5px;
+    margin: 5px;
+    border: 2px solid black;
+    padding: 5px;
+} 
+
+ .betania{
+  	grid-area: beta;
+    border-radius: 5px;
+    margin: 5px;
+    border: 2px solid black;
+    padding: 5px;
+} 
+
+.equipo{
+    grid-area: equipo;
+    border-radius: 5px;
+    margin: 5px;
+    border: 2px solid black;
+    padding: 5px;
+}
+/* fin class nosotras */
+/* fin CSS pagina quienes somos */
+
+/*inicio CSS paginas servicios y certificaciones*/
+.listaOrdenada li{
+    background-color: #C3CF0A;
+	list-style: inside;
+	list-style-type:upper-roman;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	font-weight: 600;
+	color: rgb(45, 40, 40);
+}
+
+/* inicio css class fotos pagina servicios */
+.fotos{
+    background-color: #C3CF0A;
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 150px);
+    grid-gap: 2px;
+	grid-template-areas: 
+	"foto1 foto5"
+    "foto2 foto6"
+    "foto3 foto7"
+    "foto4 foto8"; 
+ }
+
+.foto{
+    border-radius: 5px;
+    margin: 5px;
+    border: 2px solid black;
+    filter: grayscale(100%);
+    transition: all 0.7s;
+} 
+
+.foto:hover{
+    transform: scale(1.10) ;
+    filter: grayscale(0%);
+    transition: all 0.7s;
+} 
+
+.foto1{
+    background-image: url(../images/arbol.jpg);
+    background-position: center;
+    background-size: cover;
+	grid-area: foto1;
+} 
+
+ .foto2{
+    background-image: url(../images/burbuja.jpg);
+    background-position: center;
+    background-size: cover;
+	grid-area: foto2;
+} 
+
+.foto3{
+    background-image: url(../images/campo.jpg);
+    background-position: center;
+    background-size: cover;
+	grid-area: foto3;
+} 
+.foto4{
+    background-image: url(../images/flor.jpg);
+    background-position: center;
+    background-size: cover;
+    grid-area: foto4;
+}
+.foto5{
+    background-image: url(../images/luna.jpg);
+    background-position: center;
+    background-size: cover;
+    grid-area: foto5;
+}
+.foto6{
+    background-image: url(../images/arbolRojo.jpg);
+    background-position: center;
+    background-size: cover;
+    grid-area: foto6;
+}
+.foto7{
+    background-image: url(../images/mariposa.jpg);
+    background-position: center;
+    background-size: cover;
+    grid-area: foto7;
+}
+.foto8{
+    background-image: url(../images/medioambiente.jpg);
+    background-position: center;
+    background-size: cover;
+    grid-area: foto8;
+} 
+/* fin css class fotos pagina servicios */
+/*fin CSS paginas servicios y certificaciones*/
+
+/*inicio CSS pagina contacto*/
+form{
+	background-color: #C3CF0A;
+	font-family: 'Lucida Sans';
+	text-align: center;
+	line-height: 20px;
+    border-radius: 20px;
+    padding: 10px;
+}
+/*fin CSS pagina contacto*/
+
+/* inicio css media queries */
+/* inicio media queries min 600 max 767px */
+
+@media only screen and (min-width: 600px) and (max-width:767px) {
+    .seccionesGaleria{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 150px);
+        grid-template-areas: 
+        "img1 img2"
+        "img3 img4"; 
+     }
+    h1{
+        font-size: 28px;
+        padding: 2px;
+    } 
+    h3{
+        font-size: 20px;
+    } 
+    p{
+        font-size: 18px;
+        padding: 15px;
+    } 
+}
+/* fin media queries min 600 max 767px */
+/* inicio media queries min 768 max 1023px */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+	.seccionesGaleria {
+		grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 100px);
+        grid-template-areas: 
+	"img1 img2 img2"
+    "img1 img2 img2"
+    "img3 img3 img4"
+    "img3 img3 img4"
+	}
+
+    header{
+        justify-content: space-around;
+    }
+
+    .menu{
+        flex-direction: row;
+    } 
+    .menu li{
+        padding: 1rem;
+    }
+    h1{
+        font-size: 32px;
+        padding: 5px;
+    } 
+    h3{
+        font-size: 22px;
+    } 
+    p{
+        font-size: 20px;
+        padding: 20px;
+    }
+    footer{
+        flex-direction: row;
+        justify-content:space-around;
+     }
+     /* inicio media queries pagina quienes somos */
+     .nosotras{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 120px);
+        grid-template-areas: "lu beta"
+                             "equipo equipo";
+        font-size: 20px;
+    }
+    
+    .luciana .betania .equipo{
+        padding: 10px;
+    } 
+    /* fin media queries pagina quienes somos */
+    /*inicio media queries pagina contacto*/
+    form{
+	line-height: 25px;
+    padding: 15px;
+    font-size: 18px;
+   }
+   /*fin media queries pagina contacto*/
+   /*inicio media queries pagina servicios*/
+
+   .fotos{
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 150px);
+	grid-template-areas: 
+	"foto1 foto5 foto2"
+    "foto3 foto5 foto6"
+    "foto3 foto7 foto6"
+    "foto4 foto8 foto8"; 
+ }
+ /*fin media queries pagina servicios*/
+ }
+
+/* fin media queries min 768 max 1023px */
+/* inicio media queries min 1024px */
+
+@media only screen and (min-width: 1024px) {
+	.seccionesGaleria {
+		grid-template-columns: repeat(3, 2fr);
+        grid-template-rows: repeat(4, 200px);
+        grid-template-areas: 
+	"img1 img2 img2"
+    "img1 img2 img2"
+    "img3 img3 img4"
+    "img3 img3 img4"
+	}
+
+    header{
+        justify-content: space-around;
+    }
+    .menu{
+        flex-direction: row;
+    } 
+    .menu li{
+        margin-right: 50px;
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .principal{
+        line-height: 30px;
+    }   
+
+    h1{
+        font-size: 35px;
+    } 
+    h3{
+        font-size: 25px;
+    } 
+    p{
+        font-size: 20px;
+        padding: 20px;
+    } 
+
+    footer{
+        flex-direction: row;
+        justify-content:space-around;
+     }
+    footer p{
+        font-size: 20px;
+    }
+    footer i{
+        font-size: 50px;
+    }   
+    /* inicio media queries pagina quienes somos */
+    .nosotras{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, 300px);
+        grid-template-areas: "lu equipo beta";
+        font-size: 25px;
+    }
+    
+    .luciana .betania .equipo{
+        padding: 15px;
+    } 
+    /* fin media queries pagina quienes somos */
+      /*inicio media queries pagina contacto*/
+      form{
+        line-height: 30px;
+        padding: 20px;
+        font-size: 22px;
+       }
+    /*fin media queries pagina contacto*/
+      /*inicio media queries pagina servicios*/
+
+   .fotos{
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 150px);
+	grid-template-areas: 
+	"foto1 foto1 foto2 foto3"
+    "foto4 foto5 foto2 foto3"
+    "foto4 foto5 foto2 foto6"
+    "foto4 foto7 foto7 foto6" 
+    "foto8 foto8 foto8 foto6"; 
+ }
+ /*fin media queries pagina servicios*/
+}
+/* inicio media queries min 1024px */
+/* fin css media queries */
