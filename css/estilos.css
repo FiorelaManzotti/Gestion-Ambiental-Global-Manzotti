@@ -5,7 +5,8 @@
 
 /* inicio css encabezado */
 header{
-    background-color: #C3CF0A; 
+    /* background-color: #C3CF0A;  */
+    background-image: linear-gradient(to bottom, green, yellow) ;
     height: auto;
     width: 100%;
     margin: 10px;
@@ -102,6 +103,7 @@ p{
     border: 2px solid black;
     filter: grayscale(100%);
     transition: all 0.7s;
+    transform: skewY(5deg);
 } 
 
 .item:hover{
