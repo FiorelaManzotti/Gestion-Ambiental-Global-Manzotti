@@ -4,9 +4,9 @@
 }
 
 /* inicio css encabezado */
-header{
+/* header{
     /* background-color: #C3CF0A;  */
-    background-image: linear-gradient(to bottom, green, yellow) ;
+   /*  background-image: linear-gradient(to bottom, green, yellow) ;
     height: auto;
     width: 100%;
     margin: 10px;
@@ -15,7 +15,7 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
-} 
+}  */ */
 /* css logo */
 header img{
     margin: 30px;
