@@ -9,13 +9,9 @@ header{
 } 
 /* css logo */
 .navbar-brand img{
-    margin: 30px;
     border-radius: 8px;
-   /*  height: 100px;
-    width: 100px; */
 }
 /* inicio css menú navegación */
-
 .navbar li a:hover{
 	background:#E7EEE8; 
 }
