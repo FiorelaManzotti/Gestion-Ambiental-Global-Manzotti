@@ -377,7 +377,7 @@ form{
     }    
          /*inicio media queries pagina contacto*/
     form{
-        line-height: 30px;
+        line-height: 30px; 
         padding: 20px;
         font-size: 22px;
        } 
