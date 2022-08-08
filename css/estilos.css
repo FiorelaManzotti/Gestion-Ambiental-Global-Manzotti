@@ -24,6 +24,7 @@ main{
     height: auto;
     width: 100%;
     margin: 10px;
+    background-color: #C3CF0A;
 }
 /* inicio css class principal */
 .principal{
@@ -169,7 +170,6 @@ footer iframe{
 	font-weight: 600;
 	color: rgb(45, 40, 40);
 }
-
 /* inicio css class fotos pagina servicios */
 .fotos{
     background-color: #C3CF0A;
