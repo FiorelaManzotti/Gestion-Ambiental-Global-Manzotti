@@ -79,8 +79,7 @@ p{
     border: 2px solid black;
     filter: grayscale(100%);
     transition: all 0.7s;
-    transform: skewY(5deg);
-} 
+   } 
 
 .item:hover{
     transform: scale(1.10) ;
@@ -322,7 +321,7 @@ form{
         font-size: 18px;
         padding: 15px;
     } 
-}
+} 
 /* fin media queries min 600 max 767px */
 /* inicio media queries min 768 max 1023px */
 
@@ -373,14 +372,14 @@ form{
     
     .luciana .betania .equipo{
         padding: 10px;
-    } 
+    }  
     /* fin media queries pagina quienes somos */
     /*inicio media queries pagina contacto*/
     form{
 	line-height: 25px;
     padding: 15px;
     font-size: 18px;
-   }
+   } 
    /*fin media queries pagina contacto*/
    /*inicio media queries pagina servicios*/
 
@@ -395,7 +394,7 @@ form{
  }
  /*fin media queries pagina servicios*/
  }
-
+ 
 /* fin media queries min 768 max 1023px */
 /* inicio media queries min 1024px */
 
@@ -446,7 +445,7 @@ form{
     }
     footer i{
         font-size: 50px;
-    }   
+    }    */
     /* inicio media queries pagina quienes somos */
     .nosotras{
         grid-template-columns: repeat(3, 1fr);
@@ -457,18 +456,18 @@ form{
     
     .luciana .betania .equipo{
         padding: 15px;
-    } 
+    }  */
     /* fin media queries pagina quienes somos */
       /*inicio media queries pagina contacto*/
-      form{
+    form{
         line-height: 30px;
         padding: 20px;
         font-size: 22px;
-       }
+       } 
     /*fin media queries pagina contacto*/
       /*inicio media queries pagina servicios*/
 
-   .fotos{
+    .fotos{
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 150px);
 	grid-template-areas: 
@@ -477,8 +476,8 @@ form{
     "foto4 foto5 foto2 foto6"
     "foto4 foto7 foto7 foto6" 
     "foto8 foto8 foto8 foto6"; 
- }
+ } 
  /*fin media queries pagina servicios*/
-}
-/* inicio media queries min 1024px */
+} 
+/* fin media queries min 1024px */
 /* fin css media queries */
