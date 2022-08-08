@@ -335,17 +335,6 @@ form{
     "img3 img3 img4"
     "img3 img3 img4"
 	}
-
-    header{
-        justify-content: space-around;
-    }
-
-    .menu{
-        flex-direction: row;
-    } 
-    .menu li{
-        padding: 1rem;
-    }
     h1{
         font-size: 32px;
         padding: 5px;
@@ -408,18 +397,6 @@ form{
     "img3 img3 img4"
     "img3 img3 img4"
 	}
-
-    header{
-        justify-content: space-around;
-    }
-    .menu{
-        flex-direction: row;
-    } 
-    .menu li{
-        margin-right: 50px;
-        padding: 10px;
-        font-size: 20px;
-    }
 
     .principal{
         line-height: 30px;
