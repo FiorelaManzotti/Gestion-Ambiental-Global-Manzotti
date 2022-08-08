@@ -277,6 +277,17 @@ form{
 /*fin CSS pagina contacto*/
 
 /* inicio css media queries */
+/* inicio media queries max 599px*/
+ /* inicio mq pagina quienes somos */
+ @media only screen and (max-width:599px) {
+ .nosotras{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+}
+ /* fin mq pagina quienes somos */
+ /* fin media queries max 599px */
 /* inicio media queries min 600 max 767px */
 
 @media only screen and (min-width: 600px) and (max-width:767px) {
