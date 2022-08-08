@@ -5,7 +5,8 @@
 
 /* inicio css encabezado */
 header{
-    background-color: #C3CF0A; 
+    background-color: #C3CF0A;
+    font-size: 22px;
 } 
 /* css logo */
 .navbar-brand img{
