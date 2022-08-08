@@ -116,8 +116,22 @@ p{
     background-position: center;
     background-size: cover;
     grid-area: img4;
-} 
-/* inicio css class seccionesGaleria */
+}
+/* fin css class seccionesGaleria */
+/* inicio class clientes */
+.clientes{
+    background-color: #fff;
+}
+.clientes p{
+    font-size: 30px;
+    color: #000;
+}
+
+#demo{
+    background-color: #fff;
+    height: 200px;
+}
+/* fin class clientes */
  /* fin css contenido principal */
  /* inicio css footer */
 footer{
