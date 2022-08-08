@@ -151,45 +151,9 @@ footer iframe{
 .nosotras{
     background-color: #C3CF0A;
     height: auto;
-    width: 100%;
-    border-radius: 10px;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(3, 120px);
-    grid-gap: 1px;
-	grid-template-areas: "lu"
-                         "beta"
-                         "equipo"; 
-    font-family: 'Lucida Sans'; 
-	font-size: 16px; 
-	font-weight: bold; 
-    text-align: center;
-    align-items: center;
+    display: flex;
+    justify-content: space-around;
  }
-
-.luciana{
-	grid-area: lu;
-    border-radius: 5px;
-    margin: 5px;
-    border: 2px solid black;
-    padding: 5px;
-} 
-
- .betania{
-  	grid-area: beta;
-    border-radius: 5px;
-    margin: 5px;
-    border: 2px solid black;
-    padding: 5px;
-} 
-
-.equipo{
-    grid-area: equipo;
-    border-radius: 5px;
-    margin: 5px;
-    border: 2px solid black;
-    padding: 5px;
-}
 /* fin class nosotras */
 /* fin CSS pagina quienes somos */
 
@@ -351,20 +315,7 @@ form{
         flex-direction: row;
         justify-content:space-around;
      }
-     /* inicio media queries pagina quienes somos */
-     .nosotras{
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 120px);
-        grid-template-areas: "lu beta"
-                             "equipo equipo";
-        font-size: 20px;
-    }
-    
-    .luciana .betania .equipo{
-        padding: 10px;
-    }  
-    /* fin media queries pagina quienes somos */
-    /*inicio media queries pagina contacto*/
+      /*inicio media queries pagina contacto*/
     form{
 	line-height: 25px;
     padding: 15px;
@@ -423,20 +374,8 @@ form{
     }
     footer i{
         font-size: 50px;
-    }    */
-    /* inicio media queries pagina quienes somos */
-    .nosotras{
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(1, 300px);
-        grid-template-areas: "lu equipo beta";
-        font-size: 25px;
-    }
-    
-    .luciana .betania .equipo{
-        padding: 15px;
-    }  */
-    /* fin media queries pagina quienes somos */
-      /*inicio media queries pagina contacto*/
+    }    
+         /*inicio media queries pagina contacto*/
     form{
         line-height: 30px;
         padding: 20px;
