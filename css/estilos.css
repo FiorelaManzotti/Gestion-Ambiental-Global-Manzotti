@@ -7,8 +7,9 @@
 header{
     background-color: #055d28;
     font-size: 22px;
-   
-} 
+    border-radius: 10px;
+    margin-left: 10px;
+   } 
 /* css logo */
 .navbar-brand img{
     border-radius: 8px;
@@ -25,6 +26,7 @@ main{
     width: 100%;
     margin: 10px;
     background-color: #C3CF0A;
+    border-radius: 10px;
 }
 /* inicio css class principal */
 .principal{
@@ -37,14 +39,12 @@ main{
 } 
 h1{
 	color: rgb(28, 32, 21);
-	font-size: 22px;
 	text-align: center;
 	font-family:Tahoma;
     padding: 5px;
 } 
 h3{
 	color: rgb(28, 32, 21);
-	font-size: 17px;
 	text-align: center;
 	font-family:Tahoma;
     padding: 5px;
@@ -165,15 +165,13 @@ footer iframe{
 /* inicio CSS pagina quienes somos */
 /* inicio class nosotras */
 .nosotras{
-    background-color: #C3CF0A;
-    height: auto;
     display: flex;
     justify-content: space-around;
  }
 /* fin class nosotras */
 /* fin CSS pagina quienes somos */
 
-/*inicio CSS paginas servicios y certificaciones*/
+/*inicio CSS pagina servicios*/
 .listaOrdenada li{
     background-color: #C3CF0A;
 	list-style: inside;
@@ -184,7 +182,7 @@ footer iframe{
 	font-weight: 600;
 	color: rgb(45, 40, 40);
 }
-/* inicio css class fotos pagina servicios */
+
 .fotos{
     background-color: #C3CF0A;
     height: auto;
@@ -265,8 +263,7 @@ footer iframe{
     background-size: cover;
     grid-area: foto8;
 } 
-/* fin css class fotos pagina servicios */
-/*fin CSS paginas servicios y certificaciones*/
+/*fin CSS pagina servicios*/
 
 /*inicio CSS pagina contacto*/
 form{
