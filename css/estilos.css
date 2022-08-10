@@ -173,6 +173,9 @@ footer iframe{
 /* fin CSS pagina quienes somos */
 
 /*inicio CSS pagina servicios*/
+.animate__animated{
+    animation-duration: 2s;
+}
 .listaOrdenada li{
     background-color: #C3CF0A;
 	list-style: inside;
