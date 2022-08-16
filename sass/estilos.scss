@@ -1,3 +1,8 @@
+//variables
+$color1: #C3CF0A;
+$color2: #e7eee8;
+$color3: #13542D;
+
 *{
     margin: 0;
     padding: 0;
@@ -8,7 +13,7 @@ header{
     font-size: 22px;
     border-radius: 10px;
     margin-left: 10px;
-    background: linear-gradient(135deg, rgba(5,93,40,1) 0%, rgba(5,93,40,1) 20%, rgba(105,136,12,1) 54%, rgba(156,179,86,1) 89%, rgba(156,179,86,1) 100%);
+    background: $color3;
     //css logo
     .navbar-brand{
         img{
@@ -33,15 +38,15 @@ main{
     height: auto;
     width: 100%;
     margin: 10px;
-    background-color: #C3CF0A;
+    background-color: $color1;
     border-radius: 10px;
     //inicio css class principal
     .principal{
-        background-color: #E7EEE8;
+        background-color: $color2;
         height: auto;
         width: 100%;
         border-radius: 10px;
-        border: 1px solid #13542D;
+        border: 1px solid $color3;
         line-height: 20px;
         h1{
             color: rgb(28, 32, 21);
@@ -56,7 +61,7 @@ main{
             padding: 5px; 
         }
         p{
-            color: #13542D;
+            color: $color3;
             font-size: 16px;
             font-weight: bolder;
             text-align:center;
@@ -68,7 +73,7 @@ main{
     //fin css class principal
     //inicio css class seccionesGaleria
     .seccionesGaleria{
-        background-color: #C3CF0A;
+        background-color: $color1;
         height: auto;
         width: 100%;
         border-radius: 10px;
@@ -139,7 +144,7 @@ main{
 //fin css contenido principal
 //inicio css footer
 footer{
-    background-color: #E7EEE8;
+    background-color: $color2;
     width: 100%;
     height: auto;
     margin: 10px;
@@ -159,7 +164,7 @@ footer{
     }
     i{
         font-size: 40px;
-        color: #13542D;
+        color: $color3;
         letter-spacing: 20px;
         margin-top: 50px;
     }
@@ -180,7 +185,7 @@ footer{
     animation-duration: 2s;
 }
 .listaOrdenada li{
-    background-color: #C3CF0A;
+    background-color: $color1;
 	list-style: inside;
 	list-style-type:upper-roman;
 	font-size: 16px;
@@ -191,7 +196,7 @@ footer{
 }
 
 .fotos{
-    background-color: #C3CF0A;
+    background-color: $color1;
     height: auto;
     width: 100%;
     border-radius: 10px;
@@ -273,7 +278,7 @@ footer{
 
 //inicio CSS pagina contacto
 form{
-	background-color: #C3CF0A;
+	background-color: $color1;
 	font-family: 'Lucida Sans';
 	text-align: center;
 	line-height: 20px;

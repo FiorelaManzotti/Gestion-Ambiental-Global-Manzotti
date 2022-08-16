@@ -9,11 +9,9 @@ header {
   margin-left: 10px;
   background: #13542D;
 }
-
 header .navbar-brand img {
   border-radius: 8px;
 }
-
 header .navbar li a:hover {
   background: #7daf84;
 }
@@ -25,7 +23,6 @@ main {
   background-color: #C3CF0A;
   border-radius: 10px;
 }
-
 main .principal {
   background-color: #e7eee8;
   height: auto;
@@ -34,21 +31,18 @@ main .principal {
   border: 1px solid #13542D;
   line-height: 20px;
 }
-
 main .principal h1 {
   color: rgb(28, 32, 21);
   text-align: center;
   font-family: Tahoma;
   padding: 5px;
 }
-
 main .principal h3 {
   color: rgb(28, 32, 21);
   text-align: center;
   font-family: Tahoma;
   padding: 5px;
 }
-
 main .principal p {
   color: #13542D;
   font-size: 16px;
@@ -58,7 +52,6 @@ main .principal p {
   font-family: "Lucida Sans";
   padding: 10px;
 }
-
 main .seccionesGaleria {
   background-color: #C3CF0A;
   height: auto;
@@ -70,7 +63,6 @@ main .seccionesGaleria {
   grid-gap: 2px;
   grid-template-areas: "img1" "img2" "img3" "img4";
 }
-
 main .item {
   border-radius: 5px;
   margin: 5px;
@@ -78,51 +70,43 @@ main .item {
   filter: grayscale(100%);
   transition: all 0.7s;
 }
-
 main .item:hover {
   transform: scale(1.1);
   filter: grayscale(0%);
   transition: all 0.7s;
 }
-
 main .item1 {
   background-image: url(../images/servicios.svg);
   background-position: center;
   background-size: cover;
   grid-area: img1;
 }
-
 main .item2 {
   background-image: url(../images/quienesSomos.svg);
   background-position: center;
   background-size: cover;
   grid-area: img2;
 }
-
 main .item3 {
   background-image: url(../images/capacitaciones.svg);
   background-position: center;
   background-size: cover;
   grid-area: img3;
 }
-
 main .item4 {
   background-image: url(../images/contacto.svg);
   background-position: center;
   background-size: cover;
   grid-area: img4;
 }
-
 main .clientes {
   background-color: #fff;
 }
-
 main .clientes p {
   font-size: 30px;
   color: #000;
   text-align: center;
 }
-
 main #demo {
   background-color: #fff;
   height: 200px;
@@ -140,17 +124,14 @@ footer {
   flex-direction: column;
   align-items: center;
 }
-
 footer iframe {
   margin: 10px;
 }
-
 footer p {
   margin-top: 20px;
   align-items: center;
   font-size: 16px;
 }
-
 footer i {
   font-size: 40px;
   color: #13542D;
@@ -165,7 +146,7 @@ footer i {
 
 .animate__animated {
   -webkit-animation-duration: 2s;
-  animation-duration: 2s;
+          animation-duration: 2s;
 }
 
 .listaOrdenada li {
@@ -198,7 +179,6 @@ footer i {
   filter: grayscale(100%);
   transition: all 0.7s;
 }
-
 .foto:hover {
   transform: scale(1.1);
   filter: grayscale(0%);
@@ -376,6 +356,4 @@ form {
     grid-template-rows: repeat(5, 150px);
     grid-template-areas: "foto1 foto1 foto2 foto3" "foto4 foto5 foto2 foto3" "foto4 foto5 foto2 foto6" "foto4 foto7 foto7 foto6" "foto8 foto8 foto8 foto6";
   }
-} /*# sourceMappingURL=estilos.css.map */
-
-/*# sourceMappingURL=estilos.css.map */
+}/*# sourceMappingURL=estilos.css.map */
