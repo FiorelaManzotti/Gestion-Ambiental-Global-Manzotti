@@ -1,8 +1,3 @@
-//variables
-$color1: #C3CF0A;
-$color2: #e7eee8;
-$color3: #13542D;
-
 *{
     margin: 0;
     padding: 0;
@@ -416,3 +411,5 @@ form{
 } 
 // fin media queries min 1024px 
 // fin css media queries 
+
+@import "_variables.scss";
