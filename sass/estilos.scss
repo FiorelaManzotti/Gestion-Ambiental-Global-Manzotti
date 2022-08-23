@@ -71,61 +71,50 @@ main{
         }
     }
     //fin css class principal
-    //inicio css class seccionesGaleria
+    //inicio css class galeriaSecciones
     .seccionesGaleria{
-        background-color: $color1;
-        height: auto;
-        width: 100%;
-        border-radius: 10px;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(4, 150px);
-        grid-gap: 2px;
-        grid-template-areas: 
-        "img1"
-        "img2"
-        "img3"
-        "img4";
-    }
-    .item{
-        border-radius: 5px;
-        margin: 5px;
-        border: 2px solid black;
-        filter: grayscale(100%);
-        transition: all 0.7s;
-        &:hover{
-            transform: scale(1.10) ;
-            filter: grayscale(0%);
-            transition: all 0.7s;
+        width: 95%;
+        max-width: 600px;
+        margin: 100px auto;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        &:before, &:after {
+            content: "";
+            position: absolute;
+            width: calc(100% - 30px);
+            height: 4px;
+            background: #fff;
+            transition: all .3s;
+        }
+        &:before{left: -100%; top: 10px}
+        &:after{left: 100%; bottom: 10px;}
+        &:hover:before, &:hover:after{
+            left: 15px;
+        }
+        img{
+            width: 100%;
+        }
+        .texto{
+            text-align: center;
+            position: absolute;
+            transition: all .3s;
+            transform: scale(1.5);
+            opacity: 0;
+            &:hover{
+                transform: scale(1.5);
+                opacity: 1;
+            }
+            h4, a{
+                color: #fff;
+                display: inline-flex;
+                padding: 10px 100px;
+            }
         }
     }
-    .item1{
-        background-image: url(../images/servicios.svg);
-        background-position: center;
-        background-size: cover;
-        grid-area: img1;
-    }
-    .item2{
-        background-image: url(../images/quienesSomos.svg);
-        background-position: center;
-        background-size: cover;
-        grid-area: img2;
-    } 
-    
-    .item3{
-        background-image: url(../images/capacitaciones.svg);
-        background-position: center;
-        background-size: cover;
-        grid-area: img3;
-    } 
-    
-    .item4{
-        background-image: url(../images/contacto.svg);
-        background-position: center;
-        background-size: cover;
-        grid-area: img4;
-    }
-    //fin css class seccionesGaleria
+    //fin css class galeriaSecciones
     //inicio class clientes
     .clientes{
         background-color: #fff;
@@ -303,13 +292,6 @@ form{
 
 @media only screen and (min-width: 600px) and (max-width:767px) {
     main{
-        .seccionesGaleria {
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: repeat(2, 150px);
-            grid-template-areas:
-                "img1 img2"
-                "img3 img4";
-        }
         .principal{
             h1{
                 font-size:28px;
@@ -335,15 +317,6 @@ form{
 
 @media only screen and (min-width: 768px) and (max-width: 1023px){
     main{
-        .seccionesGaleria{
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: repeat(4, 100px);
-            grid-template-areas:
-            "img1 img2 img2"
-            "img1 img2 img2"
-            "img3 img3 img4"
-            "img3 img3 img4"
-        }
         .principal{
             h1 {
                 font-size: 32px;
@@ -393,15 +366,6 @@ form{
 
 @media only screen and (min-width: 1024px) {
     main{
-        .seccionesGaleria {
-            grid-template-columns: repeat(3, 2fr);
-            grid-template-rows: repeat(4, 200px);
-            grid-template-areas:
-                "img1 img2 img2"
-                "img1 img2 img2"
-                "img3 img3 img4"
-                "img3 img3 img4"
-        }
         .principal {
             line-height: 30px;
             h1{

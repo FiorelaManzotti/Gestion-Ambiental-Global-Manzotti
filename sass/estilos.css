@@ -52,52 +52,52 @@ main .principal p {
   font-family: "Lucida Sans";
   padding: 10px;
 }
-main .seccionesGaleria {
+main .galeriaSecciones {
   background-color: #C3CF0A;
   height: auto;
   width: 100%;
   border-radius: 10px;
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: auto;
   grid-template-rows: repeat(4, 150px);
   grid-gap: 2px;
-  grid-template-areas: "img1" "img2" "img3" "img4";
+  grid-template-areas: "serv" "quien" "cap" "cont";
 }
-main .item {
+main .galeriaSecciones .seccion {
   border-radius: 5px;
   margin: 5px;
   border: 2px solid black;
   filter: grayscale(100%);
   transition: all 0.7s;
 }
-main .item:hover {
+main .galeriaSecciones .seccion:hover {
   transform: scale(1.1);
   filter: grayscale(0%);
   transition: all 0.7s;
 }
-main .item1 {
-  background-image: url(../images/servicios.svg);
+main .galeriaSecciones .seccion .serv {
+  background-image: url(../images/arbol.jpg);
   background-position: center;
   background-size: cover;
-  grid-area: img1;
+  grid-area: serv;
 }
-main .item2 {
-  background-image: url(../images/quienesSomos.svg);
+main .galeriaSecciones .seccion .quien {
+  background-image: url(../images/arbol.jpg);
   background-position: center;
   background-size: cover;
-  grid-area: img2;
+  grid-area: quien;
 }
-main .item3 {
-  background-image: url(../images/capacitaciones.svg);
+main .galeriaSecciones .seccion .cap {
+  background-image: url(../images/arbol.jpg);
   background-position: center;
   background-size: cover;
-  grid-area: img3;
+  grid-area: cap;
 }
-main .item4 {
-  background-image: url(../images/contacto.svg);
+main .galeriaSecciones .seccion .cont {
+  background-image: url(../images/arbol.jpg);
   background-position: center;
   background-size: cover;
-  grid-area: img4;
+  grid-area: cont;
 }
 main .clientes {
   background-color: #fff;
@@ -258,11 +258,6 @@ form {
   }
 }
 @media only screen and (min-width: 600px) and (max-width: 767px) {
-  main .seccionesGaleria {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 150px);
-    grid-template-areas: "img1 img2" "img3 img4";
-  }
   main .principal h1 {
     font-size: 28px;
     padding: 2px;
@@ -281,11 +276,6 @@ form {
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-  main .seccionesGaleria {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 100px);
-    grid-template-areas: "img1 img2 img2" "img1 img2 img2" "img3 img3 img4" "img3 img3 img4";
-  }
   main .principal h1 {
     font-size: 32px;
     padding: 5px;
@@ -318,11 +308,6 @@ form {
   }
 }
 @media only screen and (min-width: 1024px) {
-  main .seccionesGaleria {
-    grid-template-columns: repeat(3, 2fr);
-    grid-template-rows: repeat(4, 200px);
-    grid-template-areas: "img1 img2 img2" "img1 img2 img2" "img3 img3 img4" "img3 img3 img4";
-  }
   main .principal {
     line-height: 30px;
   }
