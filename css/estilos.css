@@ -304,13 +304,13 @@ form {
     flex-direction: row;
     justify-content: space-around;
   }
-  .instagram {
+  div p .--instagram {
     color: #051405;
   }
-  .facebook {
+  div p .--facebook {
     color: blue;
   }
-  .email {
+  div p .--e-mail {
     color: #566555;
   }
   form {

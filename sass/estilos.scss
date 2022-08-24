@@ -314,16 +314,20 @@ form{
     }
     //inicio media queries pagina contacto
     //inicio mapas
-    $colors: (
-        instagram: #051405,
-        facebook: blue,
-        email: #566555,
-    );
-    @each $name, $color in $colors {
-        .#{$name} {
-            color: $color;
+    div{
+        p{
+            $colors: (
+                instagram: #051405,
+                facebook: blue,
+                e-mail: #566555
+            );
+            @each $name, $color in $colors {
+                .--#{$name} {
+                    color: $color;
+                }
+            }
         }
-    };
+    }
     //fin mapas
     form{
         line-height: 25px;
