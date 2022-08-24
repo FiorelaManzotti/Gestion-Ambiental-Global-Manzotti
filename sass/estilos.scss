@@ -243,6 +243,18 @@ footer{
 //fin CSS pagina servicios
 
 //inicio CSS pagina contacto
+//inicio mapas
+$colors: (
+    instagram: rgb(184, 130, 29),
+    facebook: purple,
+    email: green,
+    );
+@each $name, $color in $colors {
+    .#{$name} {
+        color: $color;
+        }
+    }
+//fin mapas
 form{
 	background-color: $color5;
 	font-family: 'Lucida Sans';
@@ -313,22 +325,6 @@ form{
         justify-content:space-around;
     }
     //inicio media queries pagina contacto
-    //inicio mapas
-    div{
-        p{
-            $colors: (
-                instagram: #051405,
-                facebook: blue,
-                e-mail: #566555
-            );
-            @each $name, $color in $colors {
-                .--#{$name} {
-                    color: $color;
-                }
-            }
-        }
-    }
-    //fin mapas
     form{
         line-height: 25px;
         padding: 15px;

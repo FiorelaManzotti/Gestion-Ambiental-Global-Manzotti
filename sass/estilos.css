@@ -234,6 +234,18 @@ footer i {
   grid-area: foto8;
 }
 
+.instagram {
+  color: rgb(184, 130, 29);
+}
+
+.facebook {
+  color: purple;
+}
+
+.email {
+  color: green;
+}
+
 form {
   background-color: #C3CF0A;
   font-family: "Lucida Sans";
@@ -283,15 +295,6 @@ form {
   footer {
     flex-direction: row;
     justify-content: space-around;
-  }
-  div p .--instagram {
-    color: #051405;
-  }
-  div p .--facebook {
-    color: blue;
-  }
-  div p .--e-mail {
-    color: #566555;
   }
   form {
     line-height: 25px;
