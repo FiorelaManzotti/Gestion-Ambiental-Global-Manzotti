@@ -313,6 +313,18 @@ form{
         justify-content:space-around;
     }
     //inicio media queries pagina contacto
+    //inicio mapas
+    $colors: (
+        instagram: #051405,
+        facebook: blue,
+        email: #566555,
+    );
+    @each $name, $color in $colors {
+        .#{$name} {
+            color: $color;
+        }
+    };
+    //fin mapas
     form{
         line-height: 25px;
         padding: 15px;

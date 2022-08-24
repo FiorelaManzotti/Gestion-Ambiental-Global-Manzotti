@@ -304,6 +304,15 @@ form {
     flex-direction: row;
     justify-content: space-around;
   }
+  .instagram {
+    color: #051405;
+  }
+  .facebook {
+    color: blue;
+  }
+  .email {
+    color: #566555;
+  }
   form {
     line-height: 25px;
     padding: 15px;
