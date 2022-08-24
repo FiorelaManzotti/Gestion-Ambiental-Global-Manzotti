@@ -1,10 +1,4 @@
-$color1: #021C1E;
-$color2: #004445;
-$color3: #2c7873;
-$color4: #6fb98f;
-$color5: #C3CF0A;
-$color6: #e7eee8;
-$color7: #13542d;
+@import "_variables";
 
 *{
     margin: 0;
@@ -397,5 +391,4 @@ form{
 // fin css media queries
 
 @import "_header";
-@import "_variables";
 
