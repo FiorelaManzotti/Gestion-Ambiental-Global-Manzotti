@@ -8,7 +8,7 @@ header{
     font-size: 22px;
     border-radius: 10px;
     margin-left: 10px;
-    background:rgb(28, 32, 21);
+    background-color: black;
     //css logo
     .navbar-brand{
         img{
@@ -412,4 +412,4 @@ form{
 // fin media queries min 1024px 
 // fin css media queries
 
-@import "_variables"
+@import "variables";
