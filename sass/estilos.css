@@ -137,6 +137,17 @@ footer i {
   justify-content: space-around;
 }
 
+.seguimos, .seguimos2 {
+  color: blueviolet;
+  font-size: 18px;
+  text-align: center;
+}
+
+.seguimos2 {
+  text-decoration: underline;
+  background-color: #6fb98f;
+}
+
 .animate__animated {
   -webkit-animation-duration: 2s;
           animation-duration: 2s;

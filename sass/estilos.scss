@@ -144,6 +144,18 @@ footer{
     justify-content: space-around;
 }
 //fin class nosotras
+//inicio class seguimos y seguimos2
+.seguimos{
+    color: blueviolet;
+    font-size: 18px;
+    text-align: center;
+}
+.seguimos2{
+    @extend .seguimos;
+    text-decoration: underline;
+    background-color: $color4;
+}
+//fin class seguimos y seguimos2
 //fin CSS pagina quienes somos
 
 //inicio CSS pagina servicios
