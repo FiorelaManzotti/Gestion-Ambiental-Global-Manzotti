@@ -4,13 +4,16 @@
     margin: 0;
     padding: 0;
 }
-
+//inicio mixin
+@mixin sizes($width, $height, $bcolor) {
+    width: $width;
+    height: $height;
+    background-color: $bcolor;
+}
 //inicio css contenido principal
 main{
-    height: auto;
-    width: 100%;
+    @include sizes(100%, auto, $color6);
     margin: 5px;
-    background-color: $color6;
     border-radius: 10px;
     //inicio css class principal
     .principal{
