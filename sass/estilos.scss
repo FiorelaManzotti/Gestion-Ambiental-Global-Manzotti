@@ -8,7 +8,7 @@ header{
     font-size: 22px;
     border-radius: 10px;
     margin-left: 10px;
-    background:$color3;
+    background:rgb(28, 32, 21);
     //css logo
     .navbar-brand{
         img{
@@ -33,15 +33,15 @@ main{
     height: auto;
     width: 100%;
     margin: 10px;
-    background-color: $color1;
+    background-color:#7daf84;
     border-radius: 10px;
     //inicio css class principal
     .principal{
-        background-color: $color2;
+        background-color: red;
         height: auto;
         width: 100%;
         border-radius: 10px;
-        border: 1px solid $color3;
+        border: 1px solid red;
         line-height: 20px;
         h1{
             color: rgb(28, 32, 21);
@@ -56,7 +56,7 @@ main{
             padding: 5px; 
         }
         p{
-            color: $color3;
+            color: red;
             font-size: 16px;
             font-weight: bolder;
             text-align:center;
@@ -83,7 +83,7 @@ main{
             position: absolute;
             width: calc(100% - 30px);
             height: 4px;
-            background: $color1;
+            background: red;
             transition: all .3s;
         }
         &:before{left: -100%; top: 10px}
@@ -99,7 +99,7 @@ main{
             position: absolute;
             transition: all 500ms ease-out;
             transform: scale(1.5);
-            background: $color2;
+            background: red;
             opacity: 0;
             &:hover{
                 transform: scale(1.5);
@@ -132,7 +132,7 @@ main{
 //fin css contenido principal
 //inicio css footer
 footer{
-    background-color: $color2;
+    background-color: red;
     width: 100%;
     height: auto;
     margin: 10px;
@@ -152,7 +152,7 @@ footer{
     }
     i{
         font-size: 40px;
-        color: $color3;
+        color: red;
         letter-spacing: 20px;
         margin-top: 50px;
     }
@@ -173,7 +173,7 @@ footer{
     animation-duration: 2s;
 }
 .listaOrdenada li{
-    background-color: $color1;
+    background-color: red;
 	list-style: inside;
 	list-style-type:upper-roman;
 	font-size: 16px;
@@ -184,7 +184,7 @@ footer{
 }
 
 .fotos{
-    background-color: $color1;
+    background-color: red;
     height: auto;
     width: 100%;
     border-radius: 10px;
@@ -266,7 +266,7 @@ footer{
 
 //inicio CSS pagina contacto
 form{
-	background-color: $color1;
+	background-color: red;
 	font-family: 'Lucida Sans';
 	text-align: center;
 	line-height: 20px;
@@ -410,6 +410,4 @@ form{
     //fin media queries pagina servicios
 } 
 // fin media queries min 1024px 
-// fin css media queries 
-
-@import "_variables"
+// fin css media queries
