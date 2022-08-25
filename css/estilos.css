@@ -120,37 +120,6 @@ main #demo {
   width: 100%;
 }
 
-footer {
-  background-color: #021C1E;
-  width: 100%;
-  height: auto;
-  margin: 10px;
-  border-radius: 10px;
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-footer iframe {
-  margin: 10px;
-}
-
-footer p {
-  margin-top: 20px;
-  align-items: center;
-  font-size: 16px;
-  color: #e7eee8;
-}
-
-footer i {
-  font-size: 40px;
-  color: #6fb98f;
-  letter-spacing: 20px;
-  margin-top: 50px;
-}
-
 .nosotras {
   display: flex;
   justify-content: space-around;
@@ -263,18 +232,6 @@ footer i {
   background-position: center;
   background-size: cover;
   grid-area: foto8;
-}
-
-.instagram {
-  color: rgb(184, 130, 29);
-}
-
-.facebook {
-  color: purple;
-}
-
-.email {
-  color: green;
 }
 
 form {
@@ -393,6 +350,37 @@ header .navbar-brand img {
 
 header .navbar li a:hover {
   background: #2c7873;
+}
+
+footer {
+  background-color: rgb(26, 28, 26);
+  width: 100%;
+  height: auto;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer iframe {
+  margin: 10px;
+}
+
+footer p {
+  margin-top: 20px;
+  align-items: center;
+  font-size: 16px;
+  color: rgb(172, 184, 162);
+}
+
+footer i {
+  font-size: 40px;
+  color: rgb(184, 130, 29);
+  letter-spacing: 20px;
+  margin-top: 50px;
 } /*# sourceMappingURL=estilos.css.map */
 
 /*# sourceMappingURL=estilos.css.map */

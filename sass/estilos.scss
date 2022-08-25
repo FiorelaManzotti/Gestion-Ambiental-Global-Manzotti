@@ -110,36 +110,6 @@ main{
     //fin class clientes
 }
 //fin css contenido principal
-//inicio css footer
-footer{
-    background-color: $color1;
-    width: 100%;
-    height: auto;
-    margin: 10px;
-    border-radius: 10px;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: flex;
-	flex-direction: column;
-	align-items: center;
-    iframe{
-        margin: 10px;
-    }
-    p{
-        margin-top: 20px;
-        align-items: center;
-        font-size: 16px;
-        color: $color6;
-    }
-    i{
-        font-size: 40px;
-        color: $color4;
-        letter-spacing: 20px;
-        margin-top: 50px;
-    }
-}
-//fin css footer
-
 //inicio CSS pagina quienes somos
 //inicio class nosotras
 .nosotras{
@@ -258,18 +228,6 @@ footer{
 //fin CSS pagina servicios
 
 //inicio CSS pagina contacto
-//inicio mapas
-$colors: (
-    instagram: rgb(184, 130, 29),
-    facebook: purple,
-    email: green,
-    );
-@each $name, $color in $colors {
-    .#{$name} {
-        color: $color;
-        }
-    }
-//fin mapas
 form{
 	background-color: $color5;
 	font-family: 'Lucida Sans';
@@ -418,4 +376,5 @@ form{
 // fin css media queries
 
 @import "_header";
+@import "_footer";
 
