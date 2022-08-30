@@ -243,10 +243,10 @@ main .carousel-control-prev-icon, main .carousel-control-next-icon {
 form {
   background-color: #C3CF0A;
   font-family: "Lucida Sans";
-  text-align: center;
   line-height: 20px;
-  border-radius: 20px;
+  border-radius: 5px;
   padding: 10px;
+  text-align: center;
 }
 
 header {

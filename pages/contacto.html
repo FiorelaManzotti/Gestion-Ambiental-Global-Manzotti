@@ -59,28 +59,30 @@
       <p>Solicitanos un presupuesto o realizá tu consulta.</p>
     </div>
     <!-- fin div class principal -->
+    <div>
     <!--inicio form-->
-    <form action="enviar.php" method="post" enctype="text/plain" netlify>
-      <label for="nombre_apellido">Nombre y Apellido:</label>
-      <input type="text" name="nombre" placeholder="escribe tu nombre completo" required><br>
-      <label for="mail">Correo electrónico:</label>
-      <input type="email" name="mail"><br>
-      <label for="tipo de consulta">Tipo de consulta:</label>
-      <select name="tipo de consulta" id="Tipo de consulta">Tipo de consulta
-      <option selected> ---
-      <option value="consulta">consulta</option>
-      <option value="presupuesto">presupuesto</option>
-      </select> <br>  
-      <label for="comentarios">Comentarios:</label><br>    
-      <textarea name="comentarios" id="" cols="40" rows="8" placeholder="escribe tu comentario"></textarea><br>
-      <input type="reset">
-      <input type="button" value="Enviar"><br>
-      <label for="newsletter">¿Desea recibir nuestro newsletter?</label>
-      <input type="radio" name="elegir">
-      <label for="si">Si, por favor.</label>
-      <input type="radio" name="elegir">
-      <label for="no">No, gracias.</label><br>
-    </form>
+      <form action="enviar.php" method="post" enctype="text/plain" netlify>
+        <label for="nombre_apellido">Nombre y Apellido:</label>
+        <input type="text" name="nombre" placeholder="nombre completo" required><br>
+        <label for="mail">Correo electrónico:</label>
+        <input type="email" name="mail"><br>
+        <label for="tipo de consulta">Tipo de consulta:</label>
+        <select name="tipo de consulta" id="Tipo de consulta">Tipo de consulta
+        <option selected> ---
+        <option value="consulta">consulta</option>
+        <option value="presupuesto">presupuesto</option>
+        </select> <br>  
+        <label for="comentarios">Comentarios:</label><br>    
+        <textarea name="comentarios" id="" cols="40" rows="8" placeholder="escribe tu comentario"></textarea><br>
+        <input type="reset">
+        <input type="button" value="Enviar"><br>
+        <label for="newsletter">¿Desea recibir nuestro newsletter?</label>
+        <input type="radio" name="elegir">
+        <label for="si">Si, por favor.</label>
+        <input type="radio" name="elegir">
+        <label for="no">No, gracias.</label><br>
+      </form>
+    </div>
     <!--cierre form-->
   </main>
   <!-- fin contenido principal -->
