@@ -102,6 +102,11 @@ main #demo {
   background-color: #fff;
   height: 180px;
   width: 100%;
+  align-items: center;
+}
+main .carousel-control-prev-icon, main .carousel-control-next-icon {
+  background-color: #021C1E;
+  height: 100px;
 }
 
 .nosotras {
