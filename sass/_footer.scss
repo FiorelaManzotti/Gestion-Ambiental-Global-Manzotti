@@ -9,9 +9,9 @@ $colors-footer: (
 footer{
     background-color: map-get($colors-footer , bgcolor );
     width: 100%;
-    height: auto;
-    margin: 10px;
-    border-radius: 10px;
+    height: 250px;
+    margin: 5px;
+    border-radius: 5px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
