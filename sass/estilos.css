@@ -244,9 +244,9 @@ header .navbar li a:hover {
 footer {
   background-color: rgb(26, 28, 26);
   width: 100%;
-  height: auto;
-  margin: 10px;
-  border-radius: 10px;
+  height: 250px;
+  margin: 5px;
+  border-radius: 5px;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
