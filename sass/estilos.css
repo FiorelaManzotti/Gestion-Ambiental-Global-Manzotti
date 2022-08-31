@@ -222,10 +222,28 @@ main .carousel-control-prev-icon, main .carousel-control-next-icon {
   grid-area: foto8;
 }
 
-form {
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 35rem;
+  width: 100%;
+  padding: 5px;
   background-color: #C3CF0A;
+  border-radius: 20px;
+}
+.container .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2px;
+  padding: 10px;
+  height: 600px;
+  width: 50%;
+}
+.container form {
   font-family: "Lucida Sans";
-  line-height: 20px;
+  line-height: 30px;
+  height: 600px;
   border-radius: 5px;
   padding: 10px;
   text-align: center;

@@ -233,13 +233,32 @@ main{
 //fin CSS pagina servicios
 
 //inicio CSS pagina contacto
-form{
+
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 35rem;
+    width: 100%;
+    padding: 5px;
     background-color: $color5;
-    font-family: 'Lucida Sans';
-    line-height: 20px;
-    border-radius: 5px;
-    padding: 10px;
-    text-align: center;
+    border-radius: 20px;
+    .box{
+        display: flex;
+        align-items: center;
+        justify-content: center;    
+        margin: 2px;
+        padding: 10px;
+        height: 600px;
+        width: 50%;
+    }
+    form{
+        font-family: 'Lucida Sans';
+        line-height: 30px;
+        height: 600px;
+        border-radius: 5px;
+        padding: 10px;
+        text-align: center;
+    }
 }
 
 //fin CSS pagina contacto
