@@ -59,12 +59,39 @@
       <p>Solicitanos un presupuesto o realizá tu consulta.</p>
     </div>
     <!-- fin div class principal -->
-    <div class="container">
+    <!-- <div class="container">
       <div class="box">
         <img src="../images/contacto.svg" alt="contacto">
+      </div> -->
+      <!-- inicio form -->
+    <section class="contact">
+      <div class="contact__image-wrapper">
+        <img src="../images/campo.jpg" alt="campo" class="contact__image">
       </div>
-    <!--inicio form-->
-      <form action="enviar.php" method="post" enctype="text/plain" netlify>
+      <div class="contact__right-side">
+        <h4 class="contact__title">Contactanos</h4>
+        <form action="" class="contact__form-wrapper">
+          <div class="contact__input-line">
+            <label for="name" class="contact__label">Nombre y Apellido</label>
+            <input type="text" name="name" id="name" class="contact__input">
+          </div>
+          <div class="contact__input-line">
+            <label for="email" class="contact__label">Correo electrónico</label>
+            <input type="email" name="email" id="email" class="contact__input">
+          </div>
+          <div class="contact__input-line">
+            <label for="subject" class="contact__label">Tipo de consulta</label>
+            <input type="text" name="subject" id="subject" class="contact__input">
+          </div>
+          <div class="contact__input-line">
+            <label for="message" class="contact__label">Mensaje</label>
+            <textarea name="message" id="message" class="contact__input"></textarea>
+          </div>
+          <input type="submit" value="Enviar" class="contact__submit-button">
+        </form>
+      </div>
+    </section>
+    <!-- <form action="enviar.php" method="post" enctype="text/plain" netlify>
         <label for="nombre_apellido">Nombre y Apellido:</label>
         <input type="text" name="nombre" placeholder="nombre completo" required><br>
         <label for="mail">Correo electrónico:</label>
@@ -85,7 +112,7 @@
         <input type="radio" name="elegir">
         <label for="no">No, gracias.</label><br>
       </form>
-    </div>
+    </div> -->
     <!--cierre form-->
   </main>
   <!-- fin contenido principal -->
