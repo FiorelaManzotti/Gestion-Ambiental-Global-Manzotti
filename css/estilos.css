@@ -323,6 +323,21 @@ main .carousel-control-prev-icon, main .carousel-control-next-icon {
   resize: none;
 }
 
+.contact__submit-button {
+  padding: 18px 55px;
+  background-color: #121212;
+  border-radius: 50px;
+  color: #f2f2f2;
+  font-weight: 600;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.contact__submit-button:hover {
+  background-color: #C3CF0A;
+}
+
 /* .container{
     display: flex;
     flex-direction: row;
