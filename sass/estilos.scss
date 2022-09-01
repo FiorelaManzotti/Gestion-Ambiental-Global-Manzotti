@@ -241,7 +241,7 @@ main{
     align-items: center;
     background: #fffbee;
 }
-.contact__image-wrapper{
+.contact__video{
     height: 100%;
     width: 50%;
     overflow: hidden;
@@ -249,9 +249,7 @@ main{
     justify-content: center;
     align-items: center;
 }
-.contact__image{
-    width: 100%;
-}
+
 .contact__right-side{
     display: flex;
     justify-content: center;

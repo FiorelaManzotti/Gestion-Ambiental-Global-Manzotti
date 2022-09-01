@@ -231,17 +231,13 @@ main .carousel-control-prev-icon, main .carousel-control-next-icon {
   background: #fffbee;
 }
 
-.contact__image-wrapper {
+.contact__video {
   height: 100%;
   width: 50%;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.contact__image {
-  width: 100%;
 }
 
 .contact__right-side {
