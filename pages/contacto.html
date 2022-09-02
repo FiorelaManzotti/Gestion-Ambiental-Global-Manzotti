@@ -63,22 +63,16 @@
     <div class="form">
       <video src="../videos/Office - 7269.mp4" standby="charge" autoplay loop></video>
       <form action="enviar.php" method="post" enctype="text/plain" netlify>
-        <h4>Contactanos</h4>
-        <label for="nombre_apellido">Nombre y Apellido</label>
-        <input type="text" name="nombre" required><br>
-        <label for="mail">Correo electrónico</label>
-        <input type="email" name="mail"><br>
-        <label for="tipo de consulta">Tipo de consulta</label>
-        <input type="text" name="tipo de consulta">
-        <select name="tipo de consulta" id="Tipo de consulta">Tipo de consulta
-        <option selected> seleccionar
-        <option value="consulta">consulta</option>
-        <option value="presupuesto">presupuesto</option>
-        </select> <br>  
-        <label for="mensaje">Mensaje</label><br>    
-        <textarea name="mensaje" id="" cols="30" rows="8" placeholder="escribe tu comentario"></textarea><br>
-        <input type="reset">
-        <input type="button" value="Enviar"><br>
+        <h4 class="contact-title">Contactanos</h4>
+        <label for="nombre_apellido" class="label">Nombre y Apellido</label>
+        <input type="text" name="nombre" required class="input">
+        <label for="mail" class="label">Correo electrónico</label>
+        <input type="email" name="mail" class="input">
+        <label for="tipo de consulta" class="label">Tipo de consulta</label>
+        <input type="text" name="tipo de consulta" class="input">  
+        <label for="mensaje" class="label">Mensaje</label>
+        <textarea name="mensaje" id="" class="textarea"></textarea><br>
+        <input type="button" value="Enviar" class="boton">
       </form>
     </div>
 
