@@ -233,13 +233,36 @@ main{
 //fin CSS pagina servicios
 
 //inicio CSS pagina contacto
-.contact{
+.form{
+    display: flex;
+    flex-direction: row;
+    video{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        position: absolute;
+        top: auto;
+        left: auto;
+        bottom: auto
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 450px;
+    }
+}
+
+
+
+
+/* .container-contact{
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #fffbee;
+    background: $color4;
 }
 .contact__video{
     height: 100%;
@@ -317,7 +340,7 @@ main{
 }
 .contact__submit-button:hover{
     background-color: $color5;
-}
+} */
 /* .container{
     display: flex;
     flex-direction: row;
