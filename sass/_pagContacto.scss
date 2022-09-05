@@ -1,0 +1,72 @@
+//inicio CSS pagina contacto
+.form{
+    display: flex;
+    flex-direction: row;
+    video{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        position: absolute;
+        top: auto;
+        left: auto;
+        bottom: auto
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 60%;
+        justify-content: space-around;
+        padding: 30px;
+        .contact-title{
+            font-size: 40px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-bottom: 50px;
+            text-transform: uppercase;
+        }
+        .label{
+            font-size: 18px;
+            font-weight: 600;
+        }
+        .input{
+            height: 30px;
+            outline: none;
+            padding: 5px 0;
+            border-bottom: 2px solid #121212;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            width: 100%;
+            color: #121212;
+            background-color: transparent;
+        }
+        .textarea{
+            height: 100px;
+            outline: none;
+            padding: 5px 0;
+            border-bottom: 2px solid #121212;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            width: 100%;
+            color: #121212;
+            background-color: transparent;
+            resize: none;
+        }
+        .boton{
+            padding: 18px 55px;
+            background-color: #121212;
+            border-radius: 50px;
+            color: #f2f2f2;
+            font-weight: 600;
+            border: none;
+            font-size: 18px;
+            cursor: pointer;
+            &:hover{
+                background-color: $color5;
+            }
+        }
+    }
+}
+
+//fin CSS pagina contacto
