@@ -135,9 +135,10 @@ main{
 }
 //fin class seguimos y seguimos2
 //fin CSS pagina quienes somos
-@import "_pagQuienesSomos";
-@import "_pagServicios";
-@import "_pagContacto";
+
+
 @import "_header";
 @import "_footer";
+@import "_pagServicios";
+@import "_pagContacto";
 @import "_mediaQueries";
