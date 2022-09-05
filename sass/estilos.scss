@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 //inicio mixin
 @mixin sizes($width, $height, $bcolor) {
@@ -11,9 +12,13 @@
     background-color: $bcolor;
 }
 //inicio css contenido principal
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
 main{
     @include sizes(100%, auto, $color6);
-    margin: 5px;
     border-radius: 10px;
     //inicio css class principal
     .principal{
@@ -235,7 +240,7 @@ main{
     display: flex;
     flex-direction: row;
     video{
-        height: 100%;
+        height: 85vh;
         width: 100%;
         object-fit: cover;
         position: absolute;
