@@ -52,17 +52,7 @@
                     padding: 20px;
                 }
             }
-        }
-        .footer{
-            .grupo1{
-                width: 100%;
-                margin: auto;
-                display: grid;
-                grid-template-columns: repeat(3, 1fr);
-                grid-gap: 50px;
-                padding: 45px 0px;
-            }
-        }      
+        }     
         //inicio media queries pagina contacto
         form{
             line-height: 25px;
@@ -110,13 +100,8 @@
         }
         .footer{
             .grupo1{
-                width: 100%;
-                max-width: 1200px;
-                margin: auto;
-                display: grid;
+                max-width: 1400px;
                 grid-template-columns: repeat(4, 1fr);
-                grid-gap: 50px;
-                padding: 45px 0px;
             }
         }    
         //inicio media queries pagina contacto
