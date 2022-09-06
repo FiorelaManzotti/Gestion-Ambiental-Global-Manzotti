@@ -378,6 +378,12 @@ header .navbar li a:hover {
   height: 150px;
 }
 
+.footer .grupo1 .box p {
+  color: #efefef;
+  padding: 10px;
+  text-align: center;
+}
+
 .footer .grupo1 .box h4 {
   color: #fff;
   margin-bottom: 25px;
@@ -391,6 +397,10 @@ header .navbar li a:hover {
 
 .footer .grupo1 .box ul a {
   color: #efefef;
+}
+
+.footer .grupo1 .box ul a:hover {
+  color: green;
 }
 
 .footer .grupo1 .box .redes a {

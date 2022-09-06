@@ -34,7 +34,12 @@
             iframe{
                 width: 250px;
                 height: 150px;
-            }     
+            }
+            p{
+                color: #efefef;
+                padding: 10px;
+                text-align: center;
+            }    
             h4{
                 color: #fff;
                 margin-bottom: 25px;
@@ -45,6 +50,9 @@
                 color: #efefef;
                 a{
                     color: #efefef;
+                    &:hover{
+                        color: green;
+                    }
                 }
             }
             .redes{
