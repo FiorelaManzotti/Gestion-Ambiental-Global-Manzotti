@@ -108,17 +108,18 @@ footer {
     width: 100%;
     background-color: #0a141d;
     .grupo1{
-        width: 100%;
-        max-width: 1200px;
-        margin: auto;
+        width: 90%;
+        max-width: 800px;
+        margin: auto; 
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 50px;
-        padding: 45px 0px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 35px;
+        padding: 35px 0px;
+        text-align: center;
         .box{
             iframe{
                 width: 250px;
-                height: 200px;
+                height: 150px;
             }     
             h4{
                 color: #fff;
@@ -138,6 +139,7 @@ footer {
                     width: 45px;
                     height: 45px;
                     line-height: 45px;
+                    font-size: 45px;
                     color: #fff;
                     margin-right: 10px;
                     text-align: center;
@@ -147,6 +149,15 @@ footer {
                     }
                 }
             }
+        }
+    }
+    .grupo2{
+        background-color: #0a1a2a;
+        padding: 15px 10px;
+        text-align: center;
+        color: #fff;
+        small{
+            font-size: 15px;
         }
     }
 }

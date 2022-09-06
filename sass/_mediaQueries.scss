@@ -53,10 +53,16 @@
                 }
             }
         }
-        footer{
-            flex-direction: row;
-            justify-content:space-around;
-        }
+        .footer{
+            .grupo1{
+                width: 100%;
+                margin: auto;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-gap: 50px;
+                padding: 45px 0px;
+            }
+        }      
         //inicio media queries pagina contacto
         form{
             line-height: 25px;
@@ -102,16 +108,17 @@
                 }
             }
         }
-        footer{
-            flex-direction: row;
-            justify-content: space-around;
-            p{
-                font-size: 20px;
+        .footer{
+            .grupo1{
+                width: 100%;
+                max-width: 1200px;
+                margin: auto;
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                grid-gap: 50px;
+                padding: 45px 0px;
             }
-            i{
-            font-size: 50px;
-            }
-        }   
+        }    
         //inicio media queries pagina contacto
         form{
             line-height: 30px; 

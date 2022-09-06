@@ -420,17 +420,18 @@ footer {
   background-color: #0a141d;
 }
 .footer .grupo1 {
-  width: 100%;
-  max-width: 1200px;
+  width: 90%;
+  max-width: 800px;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 50px;
-  padding: 45px 0px;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 35px;
+  padding: 35px 0px;
+  text-align: center;
 }
 .footer .grupo1 .box iframe {
   width: 250px;
-  height: 200px;
+  height: 150px;
 }
 .footer .grupo1 .box h4 {
   color: #fff;
@@ -449,6 +450,7 @@ footer {
   width: 45px;
   height: 45px;
   line-height: 45px;
+  font-size: 45px;
   color: #fff;
   margin-right: 10px;
   text-align: center;
@@ -456,6 +458,15 @@ footer {
 }
 .footer .grupo1 .box .redes a:hover {
   color: aqua;
+}
+.footer .grupo2 {
+  background-color: #0a1a2a;
+  padding: 15px 10px;
+  text-align: center;
+  color: #fff;
+}
+.footer .grupo2 small {
+  font-size: 15px;
 }
 
 @media only screen and (max-width: 599px) {
@@ -495,9 +506,13 @@ footer {
     font-size: 20px;
     padding: 20px;
   }
-  footer {
-    flex-direction: row;
-    justify-content: space-around;
+  .footer .grupo1 {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
   }
   form {
     line-height: 25px;
@@ -529,15 +544,14 @@ footer {
     font-size: 20px;
     padding: 20px;
   }
-  footer {
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  footer p {
-    font-size: 20px;
-  }
-  footer i {
-    font-size: 50px;
+  .footer .grupo1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
   }
   form {
     line-height: 30px;
