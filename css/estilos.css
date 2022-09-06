@@ -342,24 +342,9 @@ header .navbar li a:hover {
   background: #2c7873;
 }
 
-/* $colors-footer: (
-    color-p: rgb(172, 184, 162),
-    color-i: rgb(90, 149, 114),
-    bgcolor: rgb(26, 28, 26),
-    ); */
-/* footer{
-    background-color: map-get($colors-footer , bgcolor );
-    width: 100%;
-    p{
-        color: map-get($colors-footer , color-p );
-    }
-    i{
-        color: map-get($colors-footer , color-i );
-    }
-} */
 .footer {
   width: 100%;
-  background-color: #0a141d;
+  background-color: #333;
 }
 
 .footer .grupo1 {
@@ -396,11 +381,13 @@ header .navbar li a:hover {
 }
 
 .footer .grupo1 .box ul a {
-  color: #efefef;
+  color: #fff;
 }
 
 .footer .grupo1 .box ul a:hover {
-  color: green;
+  color: #6fb98f;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .footer .grupo1 .box .redes a {
@@ -417,12 +404,12 @@ header .navbar li a:hover {
 }
 
 .footer .grupo1 .box .redes a:hover {
-  color: aqua;
+  color: #C3CF0A;
   transform: scale(150%);
 }
 
 .footer .grupo2 {
-  background-color: #0a1a2a;
+  background-color: #555;
   padding: 15px 10px;
   text-align: center;
   color: #fff;
