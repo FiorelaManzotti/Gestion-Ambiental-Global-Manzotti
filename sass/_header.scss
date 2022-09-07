@@ -27,6 +27,8 @@ header{
 //fin css encabezado */
 
 //inicio css encabezado
+
+
 .header{
     width: 100%;
     height: 60px;
@@ -97,16 +99,3 @@ header{
         }
     }
 }
-
-/* .header{
-    height: 75px;
-    .container{
-        max-width: 1200px;
-        #btn-menu{
-            display: none;
-            &:checked ~ .menu{
-                transform: translateX(0%);
-            }
-        }
-    }
-} */

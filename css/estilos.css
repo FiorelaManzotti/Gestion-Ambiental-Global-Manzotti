@@ -434,18 +434,6 @@ header{
   border-bottom: 2px solid #6fb98f;
 }
 
-/* .header{
-    height: 75px;
-    .container{
-        max-width: 1200px;
-        #btn-menu{
-            display: none;
-            &:checked ~ .menu{
-                transform: translateX(0%);
-            }
-        }
-    }
-} */
 .footer {
   width: 100%;
   background-color: #333;
@@ -549,6 +537,15 @@ header{
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .header .container {
+    max-width: 1200px;
+  }
+  .header .container .menu {
+    float: right;
+  }
+  .header .container .menu a {
+    display: inline-block;
+  }
   main .principal h1 {
     font-size: 32px;
     padding: 5px;
