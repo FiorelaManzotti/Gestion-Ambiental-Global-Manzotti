@@ -83,6 +83,20 @@
     // inicio media queries min 1024px
     
     @media only screen and (min-width: 1024px) {
+        .header{
+            .container{
+                .boton{
+                    display: none;
+                }
+                .menu{
+                    float: right;
+                    a{
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+        
         main{
             .principal {
                 line-height: 30px;
