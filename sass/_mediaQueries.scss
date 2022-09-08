@@ -1,7 +1,14 @@
 // inicio css media queries
 // inicio media queries max 599px
 // inicio mq pagina quienes somos 
-@media only screen and (max-width:599px) {
+@media only screen and (min-width: 450px) and (max-width:599px) {
+    header{
+        .titulo{
+            display: flex;
+            flex-direction: row;
+            justify-items: center;
+        }
+    }
     .nosotras{
         display: flex;
         flex-direction: column;
@@ -13,12 +20,17 @@
     //inicio media queries min 600 max 767px 
     
     @media only screen and (min-width: 600px) and (max-width:767px) {
+        header{
+            .titulo{
+                display: flex;
+                flex-direction: row;
+                h1{
+                    font-size: 50px;
+                }
+            }
+        }
         main{
             .principal{
-                h1{
-                    font-size:28px;
-                    padding: 2px;
-                }
                 h3{
                     font-size: 20px;
                 }
@@ -38,29 +50,18 @@
     //inicio media queries min 768 max 1023px 
     
     @media only screen and (min-width: 768px) and (max-width: 1023px){
-/*         .header{
-            .container{
-                max-width: 1200px;
-                .boton{
-                    label{
-                        display: none;
-                    }
-                }
-                .menu{
-                    float: right;
-                    position: absolute;
-                    a{
-                        display: inline-block;
-                    }
+        header{
+            .titulo{
+                display: flex;
+                flex-direction: row;
+                h1{
+                    font-size: 60px;
+                    text-align: center;
                 }
             }
-        }  */
+        }
         main{
             .principal{
-                h1 {
-                    font-size: 32px;
-                    padding: 5px;
-                }
                 h3 {
                     font-size: 22px;
                 }
@@ -100,26 +101,22 @@
     // inicio media queries min 1024px
     
     @media only screen and (min-width: 1024px) {
-      /*   .header{
-            .container{
-                .boton{
-                    display: none;
-                }
-                .menu{
-                    float: right;
-                    a{
-                        display: inline-block;
-                    }
+        header{
+            .titulo{
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: space-between;
+                h1{
+                    font-size: 60px;
+                    text-align: center;
+                    display: flex;
+                    align-items: baseline;
                 }
             }
-        } */
-        
+        }
         main{
             .principal {
                 line-height: 30px;
-                h1{
-                    font-size: 35px;
-                }
                 h3{
                     font-size: 25px;
                 }

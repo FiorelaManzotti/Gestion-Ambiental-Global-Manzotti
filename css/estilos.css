@@ -25,13 +25,6 @@ main .principal {
   line-height: 20px;
 }
 
-main .principal h1 {
-  color: rgb(28, 32, 21);
-  text-align: center;
-  font-family: Tahoma;
-  padding: 5px;
-}
-
 main .principal h3 {
   color: rgb(28, 32, 21);
   text-align: center;
@@ -327,7 +320,6 @@ main .carousel-control-prev-icon, main .carousel-control-next-icon {
 
 header {
   width: 100%;
-  background: #101922;
   position: fixed;
   z-index: 10;
   top: 0;
@@ -339,22 +331,32 @@ header .titulo {
   background-image: url(../images/medioambiente.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: 0%;
   padding: 15px 10px;
   text-align: center;
-  color: #fff;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
   align-items: center;
 }
 
 header .titulo h1 {
-  font-size: 30px;
+  font-size: 40px;
+  padding: 50px;
+  font-weight: 700;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #000;
+}
+
+header .titulo h1:hover {
+  transform: scale(110%);
+  color: #efefef;
 }
 
 header .navbar {
-  float: right;
-  margin-right: 110px;
+  background-color: #333;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 header .navbar li a {
@@ -367,60 +369,9 @@ header .navbar li a {
 header .navbar li a:hover {
   color: #6fb98f;
   border-bottom: 2px solid #6fb98f;
+  transform: scale(120%);
 }
 
-/* 
-.header{
-    width: 100%;
-    height: 60px;
-    background: #101922;
-    position: fixed;
-    z-index: 10;
-    top: 0;
-    left: 0;
-    box-shadow: 0px 1px 10px (0,0,0,0.4);
-    .container{
-        width: 90%;
-        margin: 10px;
-        .boton{
-            float: right;
-            display: block;
-            label{
-                color: #fff;
-                background: red;
-                padding: 5px;
-                font-size: 17px;
-                border-radius: 3px;
-                cursor: pointer;
-            }
-        }
-        #btn-menu{
-            display: none;
-            &:checked ~ .menu{
-                transform: translateX(0%);
-            }
-        }
-        .menu{
-            a{
-                color: #fff;
-                text-decoration: none;
-                display: block;
-                margin-top: 10px;
-                padding: 10px 15px;
-                line-height: normal;
-                font-size: 18px;
-                transition: all 500ms ease;
-                border-bottom: 2px solid transparent;
-                text-align: center;
-                &:hover{
-                    color: $color4;
-                    border-bottom: 2px solid $color4;
-                }
-            }
-        }
-    }
-}
- */
 .footer {
   width: 100%;
   background-color: #333;
@@ -498,7 +449,12 @@ header .navbar li a:hover {
   font-size: 15px;
 }
 
-@media only screen and (max-width: 599px) {
+@media only screen and (min-width: 450px) and (max-width: 599px) {
+  header .titulo {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+  }
   .nosotras {
     display: flex;
     flex-direction: column;
@@ -506,9 +462,12 @@ header .navbar li a:hover {
   }
 }
 @media only screen and (min-width: 600px) and (max-width: 767px) {
-  main .principal h1 {
-    font-size: 28px;
-    padding: 2px;
+  header .titulo {
+    display: flex;
+    flex-direction: row;
+  }
+  header .titulo h1 {
+    font-size: 50px;
   }
   main .principal h3 {
     font-size: 20px;
@@ -524,26 +483,13 @@ header .navbar li a:hover {
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-  /*         .header{
-              .container{
-                  max-width: 1200px;
-                  .boton{
-                      label{
-                          display: none;
-                      }
-                  }
-                  .menu{
-                      float: right;
-                      position: absolute;
-                      a{
-                          display: inline-block;
-                      }
-                  }
-              }
-          }  */
-  main .principal h1 {
-    font-size: 32px;
-    padding: 5px;
+  header .titulo {
+    display: flex;
+    flex-direction: row;
+  }
+  header .titulo h1 {
+    font-size: 60px;
+    text-align: center;
   }
   main .principal h3 {
     font-size: 22px;
@@ -569,24 +515,19 @@ header .navbar li a:hover {
   }
 }
 @media only screen and (min-width: 1024px) {
-  /*   .header{
-        .container{
-            .boton{
-                display: none;
-            }
-            .menu{
-                float: right;
-                a{
-                    display: inline-block;
-                }
-            }
-        }
-    } */
+  header .titulo {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  header .titulo h1 {
+    font-size: 60px;
+    text-align: center;
+    display: flex;
+    align-items: baseline;
+  }
   main .principal {
     line-height: 30px;
-  }
-  main .principal h1 {
-    font-size: 35px;
   }
   main .principal h3 {
     font-size: 25px;
