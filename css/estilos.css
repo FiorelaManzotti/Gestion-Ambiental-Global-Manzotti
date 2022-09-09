@@ -392,6 +392,7 @@ header .navbar li a:hover {
   width: 100%;
   display: flex;
   flex-direction: row;
+  position: relative;
 }
 
 #contacto video {
@@ -406,8 +407,7 @@ header .navbar li a:hover {
 #contacto form {
   display: flex;
   flex-direction: column;
-  position: -webkit-sticky;
-  position: sticky;
+  position: relative;
   align-items: flex-start;
   padding: 30px;
   width: 80%;
