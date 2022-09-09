@@ -4,11 +4,6 @@
   box-sizing: border-box;
 }
 
-/* body{
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column; 
-} */
 main {
   width: 100%;
   height: auto;
@@ -246,11 +241,11 @@ header .titulo h1 {
   font-weight: 700;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: #000;
-  transition: all 500ms ease;
+  transition: all 500ms ease-in-out;
 }
 header .titulo h1:hover {
   transform: scale(110%);
-  color: #e7eee8;
+  color: #C3CF0A;
 }
 header .titulo a img {
   border-radius: 20px;
@@ -260,15 +255,23 @@ header .navbar {
   width: 100%;
   display: flex;
   flex-direction: column;
+  align-content: center;
 }
-header .navbar li a {
+header .navbar .navbar-nav {
+  align-items: baseline;
+}
+header .navbar .navbar-nav li {
+  padding-left: 30px;
+}
+header .navbar .navbar-nav li a {
   text-align: center;
+  align-content: flex-start;
   transition: all 500ms ease;
   border-bottom: 2px solid transparent;
   font-size: 20px;
 }
-header .navbar li a:hover {
-  color: #6fb98f;
+header .navbar .navbar-nav li a:hover {
+  color: #C3CF0A;
   border-bottom: 2px solid #6fb98f;
   transform: scale(120%);
 }
@@ -445,9 +448,6 @@ header .navbar li a:hover {
     display: flex;
     flex-direction: row;
   }
-  header .titulo h1 {
-    font-size: 50px;
-  }
   main .principal h3 {
     font-size: 20px;
   }
@@ -472,10 +472,10 @@ header .navbar li a:hover {
   header .titulo {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
   }
   header .titulo h1 {
-    font-size: 60px;
-    text-align: center;
+    font-size: 50px;
   }
   main .principal h3 {
     font-size: 22px;
@@ -513,6 +513,7 @@ header .navbar li a:hover {
     text-align: center;
     display: flex;
     align-items: baseline;
+    padding-right: 50px;
   }
   main .principal {
     line-height: 30px;
