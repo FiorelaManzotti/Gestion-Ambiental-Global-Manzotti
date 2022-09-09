@@ -23,11 +23,6 @@
     </div>
     <!-- inicio navbar bootstrap -->
     <nav class="navbar navbar-expand-md navbar-dark ">
-      <!-- inicio logo -->
-    <!--    <a class="navbar-brand col-6" href="./index.html">
-        <img src="./images/logo.jpg" alt="logo">
-      </a> -->
-      <!-- fin logo -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -57,17 +52,29 @@
   </header>
   <!-- fin encabezado -->
   <!--inicio contenido principal-->
-  <main>
+  <main id="contacto">
     <!-- inicio div class principal -->
-    <div class="principal">
-      <h1>Gestión Ambiental Global</h1>
+<!--     <div class="principal">
       <h3>Formulario de contacto</h3>
       <p>Solicitanos un presupuesto o realizá tu consulta.</p>
-    </div> 
+    </div>  -->
     <!-- fin div class principal -->
     <!-- inicio form -->
-    <div class="form">
-      <video src="../videos/Office - 7269.mp4" standby="charge" autoplay loop></video>
+    <video src="../videos/Office - 7269.mp4" type="video/mp4" standby="charge" autoplay loop></video>
+    <form action="enviar.php" method="post" enctype="text/plain" netlify>
+      <h4 class="contact-title">Contactanos</h4>
+      <label for="nombre_apellido" class="label">Nombre y Apellido</label>
+      <input type="text" name="nombre" required class="input">
+      <label for="mail" class="label">Correo electrónico</label>
+      <input type="email" name="mail" class="input">
+      <label for="tipo de consulta" class="label">Tipo de consulta</label>
+      <input type="text" name="tipo de consulta" class="input">  
+      <label for="mensaje" class="label">Mensaje</label>
+      <textarea name="mensaje" id="" class="textarea"></textarea><br>
+      <input type="button" value="Enviar" class="boton">
+    </form>
+    <!-- <div class="form">
+      <video src="../videos/Office - 7269.mp4" type="video/mp4" standby="charge" autoplay loop></video>
       <form action="enviar.php" method="post" enctype="text/plain" netlify>
         <h4 class="contact-title">Contactanos</h4>
         <label for="nombre_apellido" class="label">Nombre y Apellido</label>
@@ -80,7 +87,7 @@
         <textarea name="mensaje" id="" class="textarea"></textarea><br>
         <input type="button" value="Enviar" class="boton">
       </form>
-    </div>
+    </div> -->
   </main>
   <!-- fin contenido principal -->
   <!--inicio footer-->

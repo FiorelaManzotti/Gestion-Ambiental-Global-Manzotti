@@ -221,80 +221,10 @@ main .carousel-control-prev-icon, main .carousel-control-next-icon {
   grid-area: foto8;
 }
 
-.form {
-  display: flex;
-  flex-direction: row;
-}
-.form video {
-  height: 85vh;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  position: absolute;
-  top: auto;
-  left: auto;
-  bottom: auto;
-}
-.form form {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  width: 60%;
-  justify-content: space-around;
-  padding: 30px;
-}
-.form form .contact-title {
-  font-size: 40px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  margin-bottom: 50px;
-  text-transform: uppercase;
-}
-.form form .label {
-  font-size: 18px;
-  font-weight: 600;
-}
-.form form .input {
-  height: 30px;
-  outline: none;
-  padding: 5px 0;
-  border-bottom: 2px solid #121212;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  width: 100%;
-  color: #121212;
-  background-color: transparent;
-}
-.form form .textarea {
-  height: 100px;
-  outline: none;
-  padding: 5px 0;
-  border-bottom: 2px solid #121212;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  width: 100%;
-  color: #121212;
-  background-color: transparent;
-  resize: none;
-}
-.form form .boton {
-  padding: 18px 55px;
-  background-color: #121212;
-  border-radius: 50px;
-  color: #f2f2f2;
-  font-weight: 600;
-  border: none;
-  font-size: 18px;
-  cursor: pointer;
-}
-.form form .boton:hover {
-  background-color: #C3CF0A;
-}
-
 header {
   width: 100%;
-  position: fixed;
+  position: -webkit-sticky;
+  position: sticky;
   z-index: 10;
   top: 0;
   left: 0;
@@ -312,7 +242,7 @@ header .titulo {
 }
 header .titulo h1 {
   font-size: 40px;
-  padding: 50px;
+  padding: 10px;
   font-weight: 700;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: #000;
@@ -321,6 +251,9 @@ header .titulo h1 {
 header .titulo h1:hover {
   transform: scale(110%);
   color: #e7eee8;
+}
+header .titulo a img {
+  border-radius: 20px;
 }
 header .navbar {
   background-color: #333;
@@ -406,11 +339,99 @@ header .navbar li a:hover {
   font-size: 15px;
 }
 
+/* main{
+/*     .form{
+        video{
+            height: 90vh;
+            top: auto;
+            left: auto;
+            bottom: auto;
+        } */
+/*     form{ */
+/*             width: 60%;
+            height: 90vh;
+            justify-content: space-around;
+            padding: 30px; */
+#contacto {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+#contacto video {
+  display: flex;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100vh;
+}
+#contacto form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: flex-start;
+  padding: 30px;
+  width: 80%;
+  height: 100vh;
+}
+#contacto form .contact-title {
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+#contacto form .label {
+  font-size: 18px;
+  font-weight: 600;
+}
+#contacto form .input {
+  height: 30px;
+  outline: none;
+  padding: 5px 0;
+  border-bottom: 2px solid #121212;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 100%;
+  color: #121212;
+  background-color: transparent;
+}
+#contacto form .textarea {
+  height: 100px;
+  outline: none;
+  padding: 5px 0;
+  border-bottom: 2px solid #121212;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 100%;
+  color: #121212;
+  background-color: transparent;
+  resize: none;
+}
+#contacto form .boton {
+  padding: 18px 55px;
+  background-color: #121212;
+  border-radius: 50px;
+  color: #f2f2f2;
+  font-weight: 600;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+#contacto form .boton:hover {
+  background-color: #C3CF0A;
+}
+
 @media only screen and (min-width: 450px) and (max-width: 599px) {
   header .titulo {
     display: flex;
     flex-direction: row;
     justify-items: center;
+  }
+  #contacto form {
+    width: 70%;
   }
   .nosotras {
     display: flex;
@@ -432,6 +453,13 @@ header .navbar li a:hover {
   main .principal p {
     font-size: 18px;
     padding: 15px;
+  }
+  #contacto form {
+    width: 60%;
+  }
+  #contacto form .contact-title {
+    font-size: 40px;
+    margin-bottom: 40px;
   }
   .nosotras {
     display: flex;
@@ -455,10 +483,12 @@ header .navbar li a:hover {
     font-size: 20px;
     padding: 20px;
   }
-  form {
-    line-height: 25px;
-    padding: 15px;
-    font-size: 18px;
+  #contacto form {
+    width: 50%;
+  }
+  #contacto form .contact-title {
+    font-size: 50px;
+    margin-bottom: 50px;
   }
   .fotos {
     grid-template-columns: repeat(3, 1fr);
@@ -492,6 +522,13 @@ header .navbar li a:hover {
   main .principal p {
     font-size: 20px;
     padding: 20px;
+  }
+  #contacto form {
+    width: 50%;
+  }
+  #contacto form .contact-title {
+    font-size: 50px;
+    margin-bottom: 50px;
   }
   .footer .grupo1 {
     max-width: 1400px;
