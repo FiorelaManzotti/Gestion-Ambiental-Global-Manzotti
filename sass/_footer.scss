@@ -1,15 +1,16 @@
-//inicio css footer
-//inicio mapas footer
+//inicio estilo footer
+//inicio mapas
 $colors-footer: (
     color-p: #efefef,
     color-h4: #fff,
     bgcolor: #333,
     ); 
-//fin mapas footer
+//fin mapas 
 
 .footer{
     width: 100%;
     background-color: map-get($colors-footer , bgcolor );
+    //inicio contenido principal footer
     .grupo1{
         width: 90%;
         max-width: 800px;
@@ -37,6 +38,7 @@ $colors-footer: (
             ul{
                 list-style: none;
                 color: #efefef;
+                //inicio links directos footer
                 a{
                     color: map-get($colors-footer , color-h4 );
                     &:hover{
@@ -45,7 +47,9 @@ $colors-footer: (
                         text-decoration: none;
                     }
                 }
+                //fin links directos footer
             }
+            //inicio redes sociales
             .redes{
                 a{
                     display: inline-block;
@@ -64,8 +68,11 @@ $colors-footer: (
                     }
                 }
             }
+            //fin redes sociales
         }
     }
+    //fin contenido principal footer
+    //inicio contenido legal footer
     .grupo2{
         background-color: #555;
         padding: 15px 10px;
@@ -75,4 +82,6 @@ $colors-footer: (
             font-size: 15px;
         }
     }
+    //fin contenido legal footer
 }
+//fin estilo footer

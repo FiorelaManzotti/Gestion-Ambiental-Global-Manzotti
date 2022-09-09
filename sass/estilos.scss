@@ -12,11 +12,11 @@
     background-color: $bcolor;
 }
 //inicio css contenido principal
-body{
+/* body{
     display: flex;
     min-height: 100vh;
-    flex-direction: column;
-}
+    flex-direction: column; 
+} */
 main{
     @include sizes(100%, auto, $color6);
     border-radius: 10px;

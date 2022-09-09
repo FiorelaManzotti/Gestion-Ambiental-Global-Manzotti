@@ -1,11 +1,10 @@
-//inicio css encabezado
+//inicio estilo encabezado
 header{
     width: 100%;
     position: fixed;
     z-index: 10;
     top: 0;
     left: 0;
-    box-shadow: 0px 1px 10px (0,0,0,0.4);
     .titulo{
         background-image: url(../images/medioambiente.jpg);
         background-size: cover;
@@ -22,14 +21,14 @@ header{
             font-weight: 700;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             color: #000;
+            transition: all 500ms ease; 
             &:hover{
                 transform: scale(110%);
-                color: #efefef;
+                color: $color6;
             }
         }
     }
-    //css logo
-    //inicio css menú nvegación
+    //inicio estilo menú nvegación
     .navbar{
         background-color: #333;
         width: 100%;
@@ -49,8 +48,6 @@ header{
             }
         }
     }
-    //fin css menú navegación
+    //fin estilo menú navegación
 } 
-//fin css encabezado 
-
-//inicio css encabezado
+//fin estilo encabezado 

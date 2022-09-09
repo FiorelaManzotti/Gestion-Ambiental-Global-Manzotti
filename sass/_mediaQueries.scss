@@ -1,7 +1,9 @@
-// inicio css media queries
-// inicio media queries max 599px
-// inicio mq pagina quienes somos 
+// inicio estilo media queries
+
+// inicio mq min 4509x hasta max 599px
+
 @media only screen and (min-width: 450px) and (max-width:599px) {
+    //inicio mq header
     header{
         .titulo{
             display: flex;
@@ -9,17 +11,23 @@
             justify-items: center;
         }
     }
+    //fin mq header
+
+    //inicio mq pag quienes somos
     .nosotras{
         display: flex;
         flex-direction: column;
         align-items: center;
         }
     }
-    //fin mq pagina quienes somos
-    //fin media queries max 599px 
-    //inicio media queries min 600 max 767px 
+    //fin mq pag quienes somos
+
+    //fin mq min 4509x hasta max 599px 
+
+    //inicio mq min 600px max 767px 
     
     @media only screen and (min-width: 600px) and (max-width:767px) {
+        //inicio mq header
         header{
             .titulo{
                 display: flex;
@@ -29,6 +37,8 @@
                 }
             }
         }
+        //fin mq header
+        //inicio mq contenido principal
         main{
             .principal{
                 h3{
@@ -40,16 +50,21 @@
                 }
             }
         }
+        //fin mq contenido principal
+        //inicio mq pag quienes somos
         .nosotras{
             display: flex;
             flex-direction: column;
             align-items: center;
         }
+        //fin mq pag quienes somos
     } 
-    //fin media queries min 600 max 767px 
-    //inicio media queries min 768 max 1023px 
+    //fin mq min 600px max 767px 
+
+    //inicio mq min 768px max 1023px 
     
     @media only screen and (min-width: 768px) and (max-width: 1023px){
+        //inicio mq header
         header{
             .titulo{
                 display: flex;
@@ -60,6 +75,8 @@
                 }
             }
         }
+        //fin mq header
+        //inicio mq contenido principal
         main{
             .principal{
                 h3 {
@@ -70,15 +87,16 @@
                     padding: 20px;
                 }
             }
-        }     
-        //inicio media queries pagina contacto
+        }   
+        //fin mq contenido principal  
+        //inicio mq pag contacto
         form{
             line-height: 25px;
             padding: 15px;
             font-size: 18px;
         } 
-        //fin media queries pagina contacto
-        //inicio media queries pagina servicios
+        //fin mq pag contacto
+        //inicio mq pag servicios
         .fotos{
             grid-template-columns: repeat(3, 1fr);
             grid-template-rows: repeat(4, 150px);
@@ -88,19 +106,21 @@
                 "foto3 foto7 foto6"
                 "foto4 foto8 foto8"; 
         }
-        //fin media queries pagina servicios
-        //inicio mq pagina quienes somos 
+        //fin mq pag servicios
+        //inicio mq pag quienes somos 
         .nosotras{
             display: flex;
             flex-direction: column;
             align-items: center;
         }
-        //fin mq pagina quienes somos 
+        //fin mq pag quienes somos 
     }
-    //fin media queries min 768 max 1023px 
-    // inicio media queries min 1024px
+    //fin mq min 768px max 1023px 
+
+    // inicio mq min 1024px
     
     @media only screen and (min-width: 1024px) {
+        //inicio mq header
         header{
             .titulo{
                 display: flex;
@@ -114,6 +134,8 @@
                 }
             }
         }
+        //fin mq header
+        //inicio mq contenido principal
         main{
             .principal {
                 line-height: 30px;
@@ -126,20 +148,23 @@
                 }
             }
         }
+        //fin mq contenido principal
+        //inicio mq footer
         .footer{
             .grupo1{
                 max-width: 1400px;
                 grid-template-columns: repeat(4, 1fr);
             }
         }    
-        //inicio media queries pagina contacto
+        //fin mq footer
+        //inicio mq pag contacto
         form{
             line-height: 30px; 
             padding: 20px;
             font-size: 22px;
         } 
-        //fin media queries pagina contacto
-        //inicio media queries pagina servicios
+        //fin mq pag contacto
+        //inicio mq pag servicios
         .fotos{
             grid-template-columns: repeat(4, 1fr);
             grid-template-rows: repeat(5, 150px);
@@ -150,7 +175,7 @@
             "foto4 foto7 foto7 foto6" 
             "foto8 foto8 foto8 foto6"; 
         } 
-        //fin media queries pagina servicios
+        //fin mq pag servicios
     } 
-    // fin media queries min 1024px 
-    // fin css media queries
+    // fin mq min 1024px 
+    // fin estilo media queries
