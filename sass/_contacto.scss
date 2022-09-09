@@ -31,7 +31,7 @@
     form{
         display: flex;
         flex-direction: column;
-        position: relative;
+        position: sticky;
         align-items: flex-start;
         padding: 30px;
         width: 80%;
