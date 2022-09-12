@@ -128,104 +128,11 @@ main{
 }
 //fin class seguimos y seguimos2
 //fin CSS pagina quienes somos
-//inicio CSS pagina servicios
-.animate__animated{
-    animation-duration: 2s;
-}
-.listaOrdenada li{
-    background-color: $color5;
-	list-style: inside;
-	list-style-type:upper-roman;
-	font-size: 16px;
-	line-height: 20px;
-	text-align: center;
-	font-weight: 600;
-	color: rgb(45, 40, 40);
-}
 
-.fotos{
-    background-color: $color3;
-    height: auto;
-    width: 100%;
-    border-radius: 10px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 150px);
-    grid-gap: 2px;
-	grid-template-areas: 
-	"foto1 foto5"
-    "foto2 foto6"
-    "foto3 foto7"
-    "foto4 foto8"; 
-}
-
-.foto{
-    border-radius: 5px;
-    margin: 5px;
-    border: 2px solid black;
-    filter: grayscale(100%);
-    transition: all 0.7s;
-    &:hover{
-        transform: scale(1.10) ;
-        filter: grayscale(0%);
-        transition: all 0.7s;
-    }
-} 
-
-.foto1{
-    background-image: url(../images/arbol.jpg);
-    background-position: center;
-    background-size: cover;
-	grid-area: foto1;
-} 
-
-.foto2{
-    background-image: url(../images/burbuja.jpg);
-    background-position: center;
-    background-size: cover;
-	grid-area: foto2;
-} 
-
-.foto3{
-    background-image: url(../images/campo.jpg);
-    background-position: center;
-    background-size: cover;
-	grid-area: foto3;
-} 
-.foto4{
-    background-image: url(../images/flor.jpg);
-    background-position: center;
-    background-size: cover;
-    grid-area: foto4;
-}
-.foto5{
-    background-image: url(../images/luna.jpg);
-    background-position: center;
-    background-size: cover;
-    grid-area: foto5;
-}
-.foto6{
-    background-image: url(../images/arbolRojo.jpg);
-    background-position: center;
-    background-size: cover;
-    grid-area: foto6;
-}
-.foto7{
-    background-image: url(../images/mariposa.jpg);
-    background-position: center;
-    background-size: cover;
-    grid-area: foto7;
-}
-.foto8{
-    background-image: url(../images/medioambiente.jpg);
-    background-position: center;
-    background-size: cover;
-    grid-area: foto8;
-} 
-//fin CSS pagina servicios
 
 @import "_header";
 @import "_footer";
+@import "_servicios";
 @import "_capacitaciones";
 @import "_contacto";
 @import "_mediaQueries";
