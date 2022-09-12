@@ -7,9 +7,10 @@ background-repeat: no-repeat;
 background-color: $color2;
     .jumbotron{
         text-align: center;
-        height: 100%;
+        max-height: 100%;
         .btn{
             color: $color6;
+            margin: 1rem;
             &:hover{
                 color: $color5;
                 transform: scale(120%);

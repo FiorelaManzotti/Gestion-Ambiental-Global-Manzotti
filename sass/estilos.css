@@ -350,10 +350,11 @@ header .navbar .navbar-nav li a:hover {
 }
 #capacitaciones .jumbotron {
   text-align: center;
-  height: 100%;
+  max-height: 100%;
 }
 #capacitaciones .jumbotron .btn {
   color: #e7eee8;
+  margin: 1rem;
 }
 #capacitaciones .jumbotron .btn:hover {
   color: #C3CF0A;
