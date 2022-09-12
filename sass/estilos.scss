@@ -14,13 +14,12 @@
 //inicio css contenido principal
 main{
     @include sizes(100%, auto, $color6);
-    border-radius: 10px;
-    //inicio css class principal
+
+/*     //inicio css class principal
     .principal{
         background-color: $color6;
         height: auto;
         width: 100%;
-        border-radius: 10px;
         line-height: 20px;
         h3{
             color: rgb(28, 32, 21);
@@ -37,7 +36,7 @@ main{
             font-family: 'Lucida Sans';
             padding: 10px;
         }
-    }
+    } */
     //fin css class principal
     //inicio css class galeriaSecciones
     .seccionesGaleria{
@@ -227,5 +226,6 @@ main{
 
 @import "_header";
 @import "_footer";
+@import "_capacitaciones";
 @import "_contacto";
 @import "_mediaQueries";

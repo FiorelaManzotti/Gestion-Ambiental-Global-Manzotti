@@ -8,29 +8,28 @@ main {
   width: 100%;
   height: auto;
   background-color: #e7eee8;
-  border-radius: 10px;
-}
-main .principal {
-  background-color: #e7eee8;
-  height: auto;
-  width: 100%;
-  border-radius: 10px;
-  line-height: 20px;
-}
-main .principal h3 {
-  color: rgb(28, 32, 21);
-  text-align: center;
-  font-family: Tahoma;
-  padding: 5px;
-}
-main .principal p {
-  color: #004445;
-  font-size: 16px;
-  font-weight: bolder;
-  text-align: center;
-  font-style: italic;
-  font-family: "Lucida Sans";
-  padding: 10px;
+  /*     //inicio css class principal
+      .principal{
+          background-color: $color6;
+          height: auto;
+          width: 100%;
+          line-height: 20px;
+          h3{
+              color: rgb(28, 32, 21);
+              text-align: center;
+              font-family:Tahoma;
+              padding: 5px; 
+          }
+          p{
+              color: $color2;
+              font-size: 16px;
+              font-weight: bolder;
+              text-align:center;
+              font-style: italic;
+              font-family: 'Lucida Sans';
+              padding: 10px;
+          }
+      } */
 }
 main .seccionesGaleria {
   width: 95%;
@@ -340,6 +339,26 @@ header .navbar .navbar-nav li a:hover {
 }
 .footer .grupo2 small {
   font-size: 15px;
+}
+
+#capacitaciones {
+  background-image: url(../images/capacitaciones.svg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-color: #004445;
+}
+#capacitaciones .jumbotron {
+  text-align: center;
+  height: 100%;
+}
+#capacitaciones .jumbotron .btn {
+  color: #e7eee8;
+}
+#capacitaciones .jumbotron .btn:hover {
+  color: #C3CF0A;
+  transform: scale(120%);
+  text-transform: uppercase;
 }
 
 /* main{
