@@ -119,16 +119,18 @@
         //fin mq pag contacto
 
         //inicio mq pag servicios
-        .fotos{
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: repeat(4, 150px);
-            grid-template-areas: 
-                "foto1 foto5 foto2"
-                "foto3 foto5 foto6"
-                "foto3 foto7 foto6"
-                "foto4 foto8 foto8"; 
+        #servicios{
+            .itemsServicios{
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(3, auto);
+                grid-template-areas: 
+                "item1 item2"
+                "item3 item4"
+                "item5 item6";
+            }
         }
         //fin mq pag servicios
+
         //inicio mq pag quienes somos 
         .nosotras{
             display: flex;
@@ -199,16 +201,15 @@
         } 
         //fin mq pag contacto
         //inicio mq pag servicios
-        .fotos{
-            grid-template-columns: repeat(4, 1fr);
-            grid-template-rows: repeat(5, 150px);
-            grid-template-areas: 
-            "foto1 foto1 foto2 foto3"
-            "foto4 foto5 foto2 foto3"
-            "foto4 foto5 foto2 foto6"
-            "foto4 foto7 foto7 foto6" 
-            "foto8 foto8 foto8 foto6"; 
-        } 
+        #servicios{
+            .itemsServicios{
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: repeat(2, auto);
+                grid-template-areas: 
+                "item1 item2 item3"
+                "item4 item5 item6";
+            }
+        }
         //fin mq pag servicios
     } 
     // fin mq min 1024px 
