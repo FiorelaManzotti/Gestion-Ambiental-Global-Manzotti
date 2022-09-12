@@ -287,17 +287,6 @@ header .navbar .navbar-nav li a:hover {
   animation-duration: 3s;
 }
 
-#servicios div .listaOrdenada li {
-  background-color: #C3CF0A;
-  list-style: inside;
-  list-style-type: upper-roman;
-  font-size: 16px;
-  line-height: 20px;
-  text-align: center;
-  font-weight: 600;
-  color: rgb(45, 40, 40);
-}
-
 #servicios .itemsServicios {
   background-color: #2c7873;
   height: 100%;
@@ -322,6 +311,21 @@ header .navbar .navbar-nav li a:hover {
   transform: scale(1.1);
   filter: grayscale(0%);
   transition: all 0.7s;
+}
+
+#servicios .itemsServicios .card .card-body h3 {
+  font-size: 25px;
+  text-align: center;
+}
+
+#servicios .itemsServicios .card .card-body ul {
+  list-style: none;
+}
+
+#servicios .itemsServicios .card .card-body ul li {
+  padding: 4px;
+  font-size: 0.9rem;
+  text-align: center;
 }
 
 #servicios .itemsServicios .item1 {

@@ -8,16 +8,6 @@
         .animate__animated{
             animation-duration: 3s;
         }  
-        .listaOrdenada li{
-            background-color: $color5;
-            list-style: inside;
-            list-style-type:upper-roman;
-            font-size: 16px;
-            line-height: 20px;
-            text-align: center;
-            font-weight: 600;
-            color: rgb(45, 40, 40);
-        }
     }
     .itemsServicios{
         background-color: $color3;
@@ -45,6 +35,20 @@
                 transform: scale(1.10) ;
                 filter: grayscale(0%);
                 transition: all 0.7s;
+            }
+            .card-body{
+                h3{
+                    font-size: 25px;
+                    text-align: center;
+                }
+                ul{
+                    list-style: none;
+                    li{
+                        padding: 4px;
+                        font-size: 0.9rem;
+                        text-align: center;
+                    }
+                }
             }
         }
         .item1{
