@@ -1,6 +1,6 @@
 // inicio estilo media queries
 
-// inicio mq min 4509x hasta max 599px
+// inicio mq min 450px hasta max 599px
 
 @media only screen and (min-width: 450px) and (max-width:599px) {
     //inicio mq header
@@ -20,6 +20,14 @@
         }
     }
     //fin mq pag contacto
+
+    //inicio mq pag servicios
+    #servicios{
+        .itemsServicios{
+            padding: 3rem;
+        }
+    }
+    //fin mq pag servicios
 
     //inicio mq pag quienes somos
     .nosotras{
@@ -67,6 +75,13 @@
             }
         }
         //fin mq pag contacto
+        //inicio mq pag servicios
+        #servicios{
+            .itemsServicios{
+                padding: 0rem 8rem;
+            }
+        }
+        //fin mq pag servicios
         //inicio mq pag quienes somos
         .nosotras{
             display: flex;
@@ -121,6 +136,7 @@
         //inicio mq pag servicios
         #servicios{
             .itemsServicios{
+                padding: 0rem 2rem;
                 grid-template-columns: repeat(2, 1fr);
                 grid-template-rows: repeat(3, auto);
                 grid-template-areas: 
@@ -203,6 +219,7 @@
         //inicio mq pag servicios
         #servicios{
             .itemsServicios{
+                padding: 1rem 4rem;
                 grid-template-columns: repeat(3, 1fr);
                 grid-template-rows: repeat(2, auto);
                 grid-template-areas: 

@@ -279,7 +279,7 @@ header .navbar .navbar-nav li a:hover {
 
 #servicios div h2 {
   text-align: center;
-  font-size: 40px;
+  font-size: 45px;
 }
 
 #servicios div .animate__animated {
@@ -302,7 +302,6 @@ header .navbar .navbar-nav li a:hover {
 #servicios .itemsServicios .card {
   border-radius: 5px;
   margin: 5px;
-  border: 1px solid black;
   filter: grayscale(100%);
   transition: all 0.7s;
 }
@@ -323,7 +322,6 @@ header .navbar .navbar-nav li a:hover {
 }
 
 #servicios .itemsServicios .card .card-body ul li {
-  padding: 4px;
   font-size: 0.9rem;
   text-align: center;
 }
@@ -487,6 +485,9 @@ header .navbar .navbar-nav li a:hover {
   #contacto form {
     width: 70%;
   }
+  #servicios .itemsServicios {
+    padding: 3rem;
+  }
   .nosotras {
     display: flex;
     flex-direction: column;
@@ -511,6 +512,9 @@ header .navbar .navbar-nav li a:hover {
   #contacto form .contact-title {
     font-size: 40px;
     margin-bottom: 40px;
+  }
+  #servicios .itemsServicios {
+    padding: 0rem 8rem;
   }
   .nosotras {
     display: flex;
@@ -542,6 +546,7 @@ header .navbar .navbar-nav li a:hover {
     margin-bottom: 50px;
   }
   #servicios .itemsServicios {
+    padding: 0rem 2rem;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, auto);
     grid-template-areas: "item1 item2" "item3 item4" "item5 item6";
@@ -592,6 +597,7 @@ header .navbar .navbar-nav li a:hover {
     font-size: 22px;
   }
   #servicios .itemsServicios {
+    padding: 1rem 4rem;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, auto);
     grid-template-areas: "item1 item2 item3" "item4 item5 item6";
