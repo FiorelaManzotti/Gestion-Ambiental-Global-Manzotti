@@ -131,15 +131,15 @@ header .titulo {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0%;
-  padding: 15px 10px;
+  padding: 5px 5px;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 header .titulo h1 {
-  font-size: 40px;
-  padding: 10px;
+  font-size: 35px;
+  padding: 2px;
   font-weight: 700;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: #000;
@@ -147,10 +147,11 @@ header .titulo h1 {
 }
 header .titulo h1:hover {
   transform: scale(110%);
-  color: #C3CF0A;
+  color: #e7eee8;
 }
 header .titulo a img {
   border-radius: 20px;
+  height: 15vh;
 }
 header .navbar {
   background-color: #333;
@@ -257,6 +258,7 @@ header .navbar .navbar-nav li a:hover {
   height: 100%;
   width: 100%;
   max-width: 100%;
+  padding: 0.2rem;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(6, auto);
@@ -333,25 +335,11 @@ header .navbar .navbar-nav li a:hover {
   text-transform: uppercase;
 }
 
-/* main{
-/*     .form{
-        video{
-            height: 90vh;
-            top: auto;
-            left: auto;
-            bottom: auto;
-        } */
-/*     form{ */
-/*             width: 60%;
-            height: 90vh;
-            justify-content: space-around;
-            padding: 30px; */
 #contacto {
   height: 100%;
   width: 100%;
   display: flex;
   flex-direction: row;
-  position: relative;
 }
 #contacto video {
   display: flex;
@@ -424,6 +412,7 @@ header .navbar .navbar-nav li a:hover {
     display: flex;
     flex-direction: row;
     justify-items: center;
+    justify-content: space-between;
   }
   #contacto form {
     width: 70%;
@@ -441,6 +430,7 @@ header .navbar .navbar-nav li a:hover {
   header .titulo {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
   }
   main .principal h3 {
     font-size: 20px;
@@ -505,6 +495,7 @@ header .navbar .navbar-nav li a:hover {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
+    padding: 2rem;
   }
   header .titulo h1 {
     font-size: 60px;
