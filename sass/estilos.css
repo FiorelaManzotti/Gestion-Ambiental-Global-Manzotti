@@ -142,6 +142,70 @@ header .navbar .navbar-nav li a:hover {
   width: 100%;
   display: flex;
   flex-direction: column;
+  /* div{
+      h2{
+          font-size: 30px;
+          text-align: center;
+          text-transform: uppercase;
+          padding: 1rem;
+      }
+      p{
+          font-size: 17px;
+          text-align: center;
+          font-weight: 500;
+          padding: 1rem;
+      }
+  }
+  //inicio class galeriaSecciones
+  .secciones{
+      display: flex;
+      flex-direction: column;
+      .seccionesGaleria{
+          width: 85%;
+          max-width: 600px;
+          margin: 10px auto;
+          position: relative;
+          overflow: hidden;
+          align-items: center;
+          border-radius: 6px;
+          box-shadow: 0px 5px 25px;
+          cursor: pointer;
+              &:before, &:after {
+                  content: "";
+                  position: absolute;
+                  width: calc(100% - 30px);
+                  height: 4px;
+                  background: $color5;
+                  transition: all .3s;
+              }
+              &:before{left: -100%; top: 10px}
+              &:after{left: 100%; bottom: 10px;}
+              &:hover:before, &:hover:after{
+                  left: 15px;
+              }
+          img{
+              width: 100%;
+          }
+          .texto{
+              text-align: center;
+              position: absolute;
+              transition: all 500ms ease-out;
+              transform: scale(1.5);
+              background: $color3;
+              opacity: 0;
+              &:hover{
+                  transform: scale(1.5);
+                  opacity: 1;
+              }
+              h4, a{
+                  color: $color1;
+                  display: inline-flex;
+                  padding: 10px 100px;
+                  margin: 10px;
+              }
+          }
+      }
+  } */
 }
 #inicio div h2 {
   font-size: 30px;
@@ -156,59 +220,11 @@ header .navbar .navbar-nav li a:hover {
   padding: 1rem;
 }
 #inicio .secciones {
-  display: flex;
-  flex-direction: column;
-}
-#inicio .secciones .seccionesGaleria {
-  width: 85%;
-  max-width: 600px;
-  margin: 10px auto;
-  position: relative;
-  overflow: hidden;
-  align-items: center;
-  border-radius: 6px;
-  box-shadow: 0px 5px 25px;
-  cursor: pointer;
-}
-#inicio .secciones .seccionesGaleria:before, #inicio .secciones .seccionesGaleria:after {
-  content: "";
-  position: absolute;
-  width: calc(100% - 30px);
-  height: 4px;
-  background: #C3CF0A;
-  transition: all 0.3s;
-}
-#inicio .secciones .seccionesGaleria:before {
-  left: -100%;
-  top: 10px;
-}
-#inicio .secciones .seccionesGaleria:after {
-  left: 100%;
-  bottom: 10px;
-}
-#inicio .secciones .seccionesGaleria:hover:before, #inicio .secciones .seccionesGaleria:hover:after {
-  left: 15px;
-}
-#inicio .secciones .seccionesGaleria img {
   width: 100%;
-}
-#inicio .secciones .seccionesGaleria .texto {
-  text-align: center;
-  position: absolute;
-  transition: all 500ms ease-out;
-  transform: scale(1.5);
-  background: #2c7873;
-  opacity: 0;
-}
-#inicio .secciones .seccionesGaleria .texto:hover {
-  transform: scale(1.5);
-  opacity: 1;
-}
-#inicio .secciones .seccionesGaleria .texto h4, #inicio .secciones .seccionesGaleria .texto a {
-  color: #021C1E;
-  display: inline-flex;
-  padding: 10px 100px;
-  margin: 10px;
+  height: auto;
+  background-image: url(../images/burbuja.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #inicio .clientes {
   background-color: #e7eee8;
