@@ -144,6 +144,18 @@
             }
         }
         //fin mq header
+        
+        //inicio mq index
+        #inicio{
+            .seccionesGaleria{
+                display: flex;
+                flex-direction: row;
+                width: auto;
+            }
+        }
+
+        //fin mq index
+
         //inicio mq pag contacto
         #contacto{
             form{

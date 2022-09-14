@@ -178,6 +178,7 @@ header .navbar .navbar-nav li a:hover {
   position: relative;
   overflow: hidden;
   display: flex;
+  flex-direction: row;
   align-items: center;
   border-radius: 6px;
   box-shadow: 0px 5px 25px;
@@ -565,6 +566,11 @@ header .navbar .navbar-nav li a:hover {
     display: flex;
     align-items: baseline;
     padding-right: 50px;
+  }
+  #inicio .seccionesGaleria {
+    display: flex;
+    flex-direction: row;
+    width: auto;
   }
   #contacto form {
     width: 50%;
