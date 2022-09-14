@@ -1,0 +1,55 @@
+//inicio estilos quienes somos
+
+#quienesSomos{
+    //inicio class nosotras
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    div{
+        h2{
+            text-align: center;
+            padding: 0.8rem;
+        }
+    }
+    .nosotras{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem;
+    }
+    .card{
+        margin: 1rem;
+        .card-text{
+            text-align: center;
+            font-weight: 500;
+        }
+    }
+    //fin class nosotras
+    //inicio class seguimos y seguimos2
+    .seguimos{
+        color: $color1;
+        font-size: 19px;
+        font-weight: 600;
+        text-align: center;
+        padding: 1rem;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        width: 80%;
+        height: auto;
+        background-color: $color4;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10%
+    }
+    .seguimos2{
+        @extend .seguimos;
+        background-color: $color7;  
+        width: 90%;
+        color: $color6;
+    }
+//fin class seguimos y seguimos2
+}
+//fin estilo pag quienes somos
+
+
+

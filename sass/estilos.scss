@@ -14,30 +14,6 @@
 //inicio css contenido principal
 main{
     @include sizes(100%, auto, $color6);
-
-/*     //inicio css class principal
-    .principal{
-        background-color: $color6;
-        height: auto;
-        width: 100%;
-        line-height: 20px;
-        h3{
-            color: rgb(28, 32, 21);
-            text-align: center;
-            font-family:Tahoma;
-            padding: 5px; 
-        }
-        p{
-            color: $color2;
-            font-size: 16px;
-            font-weight: bolder;
-            text-align:center;
-            font-style: italic;
-            font-family: 'Lucida Sans';
-            padding: 10px;
-        }
-    } */
-    //fin css class principal
     //inicio css class galeriaSecciones
     .seccionesGaleria{
         width: 95%;
@@ -108,30 +84,10 @@ main{
     //fin class clientes
 }
 //fin css contenido principal
-//inicio CSS pagina quienes somos
-//inicio class nosotras
-.nosotras{
-    display: flex;
-    justify-content: space-around;
-}
-//fin class nosotras
-//inicio class seguimos y seguimos2
-.seguimos{
-    color: blueviolet;
-    font-size: 18px;
-    text-align: center;
-}
-.seguimos2{
-    @extend .seguimos;
-    text-decoration: underline;
-    background-color: $color4;
-}
-//fin class seguimos y seguimos2
-//fin CSS pagina quienes somos
-
 
 @import "_header";
 @import "_footer";
+@import "_quienesSomos";
 @import "_servicios";
 @import "_capacitaciones";
 @import "_contacto";

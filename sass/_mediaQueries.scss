@@ -29,17 +29,8 @@
         }
     }
     //fin mq pag servicios
-
-    //inicio mq pag quienes somos
-    .nosotras{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        }
-    }
-    //fin mq pag quienes somos
-
-    //fin mq min 4509x hasta max 599px 
+}
+    //fin mq min 450px hasta max 599px 
 
     //inicio mq min 600px max 767px 
     
@@ -53,19 +44,7 @@
             }
         }
         //fin mq header
-        //inicio mq contenido principal
-        main{
-            .principal{
-                h3{
-                    font-size: 20px;
-                }
-                p{
-                    font-size: 18px;
-                    padding: 15px;
-                }
-            }
-        }
-        //fin mq contenido principal
+
         //inicio mq pag contacto
         #contacto{
             form{
@@ -84,13 +63,6 @@
             }
         }
         //fin mq pag servicios
-        //inicio mq pag quienes somos
-        .nosotras{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        //fin mq pag quienes somos
     } 
     //fin mq min 600px max 767px 
 
@@ -108,20 +80,7 @@
                 }
             }
         }
-        //fin mq header
-        //inicio mq contenido principal
-        main{
-            .principal{
-                h3 {
-                    font-size: 22px;
-                }
-                p {
-                    font-size: 20px;
-                    padding: 20px;
-                }
-            }
-        }   
-        //fin mq contenido principal  
+        //fin mq header 
 
         //inicio mq pag contacto
         #contacto{
@@ -150,10 +109,16 @@
         //fin mq pag servicios
 
         //inicio mq pag quienes somos 
-        .nosotras{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+        #quienesSomos{
+            div{
+                h2{
+                    font-size: 40px;
+                }
+            }
+            .nosotras{
+                display: flex;
+                flex-direction: row;
+            }
         }
         //fin mq pag quienes somos 
     }
@@ -179,20 +144,6 @@
             }
         }
         //fin mq header
-        //inicio mq contenido principal
-        main{
-            .principal {
-                line-height: 30px;
-                h3{
-                    font-size: 25px;
-                }
-                p{
-                    font-size: 20px;
-                    padding: 20px;
-                }
-            }
-        }
-        //fin mq contenido principal
         //inicio mq pag contacto
         #contacto{
             form{
@@ -231,6 +182,22 @@
             }
         }
         //fin mq pag servicios
+
+        //inicio mq pag quienes somos 
+        #quienesSomos{
+            div{
+                h2{
+                    font-size: 50px;
+                }
+            }
+            .nosotras{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+            }
+        }
+        //fin mq pag quienes somos
+
     } 
     // fin mq min 1024px 
     // fin estilo media queries

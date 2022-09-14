@@ -8,28 +8,6 @@ main {
   width: 100%;
   height: auto;
   background-color: #e7eee8;
-  /*     //inicio css class principal
-      .principal{
-          background-color: $color6;
-          height: auto;
-          width: 100%;
-          line-height: 20px;
-          h3{
-              color: rgb(28, 32, 21);
-              text-align: center;
-              font-family:Tahoma;
-              padding: 5px; 
-          }
-          p{
-              color: $color2;
-              font-size: 16px;
-              font-weight: bolder;
-              text-align:center;
-              font-style: italic;
-              font-family: 'Lucida Sans';
-              padding: 10px;
-          }
-      } */
 }
 
 main .seccionesGaleria {
@@ -113,22 +91,6 @@ main #demo {
 main .carousel-control-prev-icon, main .carousel-control-next-icon {
   background-color: #021C1E;
   height: 100px;
-}
-
-.nosotras {
-  display: flex;
-  justify-content: space-around;
-}
-
-.seguimos, .seguimos2 {
-  color: blueviolet;
-  font-size: 18px;
-  text-align: center;
-}
-
-.seguimos2 {
-  text-decoration: underline;
-  background-color: #6fb98f;
 }
 
 header {
@@ -278,9 +240,60 @@ header .navbar .navbar-nav li a:hover {
   font-size: 15px;
 }
 
+#quienesSomos {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#quienesSomos div h2 {
+  text-align: center;
+  padding: 0.8rem;
+}
+
+#quienesSomos .nosotras {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+
+#quienesSomos .card {
+  margin: 1rem;
+}
+
+#quienesSomos .card .card-text {
+  text-align: center;
+  font-weight: 500;
+}
+
+#quienesSomos .seguimos, #quienesSomos .seguimos2 {
+  color: #021C1E;
+  font-size: 19px;
+  font-weight: 600;
+  text-align: center;
+  padding: 1rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 80%;
+  height: auto;
+  background-color: #6fb98f;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10%;
+}
+
+#quienesSomos .seguimos2 {
+  background-color: #13542d;
+  width: 90%;
+  color: #e7eee8;
+}
+
 #servicios div h2 {
   text-align: center;
   font-size: 45px;
+  padding: 0.8rem;
+  color: #004445;
 }
 
 #servicios div .animate__animated {
@@ -477,24 +490,12 @@ header .navbar .navbar-nav li a:hover {
   #servicios .itemsServicios {
     padding: 3rem;
   }
-  .nosotras {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
 }
 @media only screen and (min-width: 600px) and (max-width: 767px) {
   header .titulo {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-  }
-  main .principal h3 {
-    font-size: 20px;
-  }
-  main .principal p {
-    font-size: 18px;
-    padding: 15px;
   }
   #contacto form {
     width: 60%;
@@ -506,11 +507,6 @@ header .navbar .navbar-nav li a:hover {
   #servicios .itemsServicios {
     padding: 0rem 8rem;
   }
-  .nosotras {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   header .titulo {
@@ -520,13 +516,6 @@ header .navbar .navbar-nav li a:hover {
   }
   header .titulo h1 {
     font-size: 50px;
-  }
-  main .principal h3 {
-    font-size: 22px;
-  }
-  main .principal p {
-    font-size: 20px;
-    padding: 20px;
   }
   #contacto form {
     width: 50%;
@@ -541,10 +530,12 @@ header .navbar .navbar-nav li a:hover {
     grid-template-rows: repeat(3, auto);
     grid-template-areas: "item1 item2" "item3 item4" "item5 item6";
   }
-  .nosotras {
+  #quienesSomos div h2 {
+    font-size: 40px;
+  }
+  #quienesSomos .nosotras {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -560,16 +551,6 @@ header .navbar .navbar-nav li a:hover {
     display: flex;
     align-items: baseline;
     padding-right: 50px;
-  }
-  main .principal {
-    line-height: 30px;
-  }
-  main .principal h3 {
-    font-size: 25px;
-  }
-  main .principal p {
-    font-size: 20px;
-    padding: 20px;
   }
   #contacto form {
     width: 50%;
@@ -592,6 +573,14 @@ header .navbar .navbar-nav li a:hover {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, auto);
     grid-template-areas: "item1 item2 item3" "item4 item5 item6";
+  }
+  #quienesSomos div h2 {
+    font-size: 50px;
+  }
+  #quienesSomos .nosotras {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 } /*# sourceMappingURL=estilos.css.map */
 
