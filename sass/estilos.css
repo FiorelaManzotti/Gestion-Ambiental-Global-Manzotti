@@ -239,10 +239,16 @@ header .navbar .navbar-nav li a:hover {
 }
 #quienesSomos .card {
   margin: 1rem;
+  background-color: #C3CF0A;
 }
 #quienesSomos .card .card-text {
   text-align: center;
   font-weight: 500;
+}
+#quienesSomos .card img {
+  height: 150px;
+  width: 286px;
+  border-radius: 50%/100% 100% 0 0;
 }
 #quienesSomos .seguimos, #quienesSomos .seguimos2 {
   color: #021C1E;
