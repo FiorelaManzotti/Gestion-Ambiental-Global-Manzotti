@@ -48,6 +48,10 @@
                     li{
                         font-size: 0.9rem;
                         text-align: center;
+                        padding: 5px 0px;
+                        &:not(:last-child){
+                        border-bottom: 1px solid $color2;
+                        }
                     }
                 }
             }

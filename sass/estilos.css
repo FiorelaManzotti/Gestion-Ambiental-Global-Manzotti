@@ -313,6 +313,10 @@ header .navbar .navbar-nav li a:hover {
 #servicios .itemsServicios .card .card-body ul li {
   font-size: 0.9rem;
   text-align: center;
+  padding: 5px 0px;
+}
+#servicios .itemsServicios .card .card-body ul li:not(:last-child) {
+  border-bottom: 1px solid #004445;
 }
 #servicios .itemsServicios .item1 {
   grid-area: item1;
