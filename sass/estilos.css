@@ -9,76 +9,6 @@ main {
   height: auto;
   background-color: #e7eee8;
 }
-main .seccionesGaleria {
-  width: 95%;
-  max-width: 600px;
-  margin: 100px auto;
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  border-radius: 6px;
-  box-shadow: 0px 5px 25px;
-  cursor: pointer;
-}
-main .seccionesGaleria:before, main .seccionesGaleria:after {
-  content: "";
-  position: absolute;
-  width: calc(100% - 30px);
-  height: 4px;
-  background: #C3CF0A;
-  transition: all 0.3s;
-}
-main .seccionesGaleria:before {
-  left: -100%;
-  top: 10px;
-}
-main .seccionesGaleria:after {
-  left: 100%;
-  bottom: 10px;
-}
-main .seccionesGaleria:hover:before, main .seccionesGaleria:hover:after {
-  left: 15px;
-}
-main .seccionesGaleria img {
-  width: 100%;
-}
-main .seccionesGaleria .texto {
-  text-align: center;
-  position: absolute;
-  transition: all 500ms ease-out;
-  transform: scale(1.5);
-  background: #2c7873;
-  opacity: 0;
-}
-main .seccionesGaleria .texto:hover {
-  transform: scale(1.5);
-  opacity: 1;
-}
-main .seccionesGaleria .texto h4, main .seccionesGaleria .texto a {
-  color: #021C1E;
-  display: inline-flex;
-  padding: 10px 100px;
-  margin: 10px;
-}
-main .clientes {
-  background-color: #e7eee8;
-}
-main .clientes p {
-  font-size: 30px;
-  color: #000;
-  text-align: center;
-}
-main #demo {
-  background-color: #fff;
-  height: 180px;
-  width: 100%;
-  align-items: center;
-}
-main .carousel-control-prev-icon, main .carousel-control-next-icon {
-  background-color: #021C1E;
-  height: 100px;
-}
 
 header {
   width: 100%;
@@ -205,6 +135,89 @@ header .navbar .navbar-nav li a:hover {
 }
 .footer .grupo2 small {
   font-size: 15px;
+}
+
+#inicio div h2 {
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1rem;
+}
+#inicio div p {
+  font-size: 17px;
+  text-align: center;
+  font-weight: 500;
+  padding: 1rem;
+}
+#inicio .seccionesGaleria {
+  width: 95%;
+  max-width: 600px;
+  margin: 100px auto;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  box-shadow: 0px 5px 25px;
+  cursor: pointer;
+}
+#inicio .seccionesGaleria:before, #inicio .seccionesGaleria:after {
+  content: "";
+  position: absolute;
+  width: calc(100% - 30px);
+  height: 4px;
+  background: #C3CF0A;
+  transition: all 0.3s;
+}
+#inicio .seccionesGaleria:before {
+  left: -100%;
+  top: 10px;
+}
+#inicio .seccionesGaleria:after {
+  left: 100%;
+  bottom: 10px;
+}
+#inicio .seccionesGaleria:hover:before, #inicio .seccionesGaleria:hover:after {
+  left: 15px;
+}
+#inicio .seccionesGaleria img {
+  width: 100%;
+}
+#inicio .seccionesGaleria .texto {
+  text-align: center;
+  position: absolute;
+  transition: all 500ms ease-out;
+  transform: scale(1.5);
+  background: #2c7873;
+  opacity: 0;
+}
+#inicio .seccionesGaleria .texto:hover {
+  transform: scale(1.5);
+  opacity: 1;
+}
+#inicio .seccionesGaleria .texto h4, #inicio .seccionesGaleria .texto a {
+  color: #021C1E;
+  display: inline-flex;
+  padding: 10px 100px;
+  margin: 10px;
+}
+#inicio .clientes {
+  background-color: #e7eee8;
+}
+#inicio .clientes p {
+  font-size: 30px;
+  color: #000;
+  text-align: center;
+}
+#inicio #demo {
+  background-color: #fff;
+  height: 180px;
+  width: 100%;
+  align-items: center;
+}
+#inicio .carousel-control-prev-icon, #inicio .carousel-control-next-icon {
+  background-color: #021C1E;
+  height: 100px;
 }
 
 #quienesSomos {
