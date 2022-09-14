@@ -137,6 +137,12 @@ header .navbar .navbar-nav li a:hover {
   font-size: 15px;
 }
 
+#inicio {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
 #inicio div h2 {
   font-size: 30px;
   text-align: center;
@@ -149,20 +155,22 @@ header .navbar .navbar-nav li a:hover {
   font-weight: 500;
   padding: 1rem;
 }
-#inicio .seccionesGaleria {
-  width: 95%;
+#inicio .secciones {
+  display: flex;
+  flex-direction: column;
+}
+#inicio .secciones .seccionesGaleria {
+  width: 85%;
   max-width: 600px;
-  margin: 100px auto;
+  margin: 10px auto;
   position: relative;
   overflow: hidden;
-  display: flex;
-  flex-direction: row;
   align-items: center;
   border-radius: 6px;
   box-shadow: 0px 5px 25px;
   cursor: pointer;
 }
-#inicio .seccionesGaleria:before, #inicio .seccionesGaleria:after {
+#inicio .secciones .seccionesGaleria:before, #inicio .secciones .seccionesGaleria:after {
   content: "";
   position: absolute;
   width: calc(100% - 30px);
@@ -170,21 +178,21 @@ header .navbar .navbar-nav li a:hover {
   background: #C3CF0A;
   transition: all 0.3s;
 }
-#inicio .seccionesGaleria:before {
+#inicio .secciones .seccionesGaleria:before {
   left: -100%;
   top: 10px;
 }
-#inicio .seccionesGaleria:after {
+#inicio .secciones .seccionesGaleria:after {
   left: 100%;
   bottom: 10px;
 }
-#inicio .seccionesGaleria:hover:before, #inicio .seccionesGaleria:hover:after {
+#inicio .secciones .seccionesGaleria:hover:before, #inicio .secciones .seccionesGaleria:hover:after {
   left: 15px;
 }
-#inicio .seccionesGaleria img {
+#inicio .secciones .seccionesGaleria img {
   width: 100%;
 }
-#inicio .seccionesGaleria .texto {
+#inicio .secciones .seccionesGaleria .texto {
   text-align: center;
   position: absolute;
   transition: all 500ms ease-out;
@@ -192,11 +200,11 @@ header .navbar .navbar-nav li a:hover {
   background: #2c7873;
   opacity: 0;
 }
-#inicio .seccionesGaleria .texto:hover {
+#inicio .secciones .seccionesGaleria .texto:hover {
   transform: scale(1.5);
   opacity: 1;
 }
-#inicio .seccionesGaleria .texto h4, #inicio .seccionesGaleria .texto a {
+#inicio .secciones .seccionesGaleria .texto h4, #inicio .secciones .seccionesGaleria .texto a {
   color: #021C1E;
   display: inline-flex;
   padding: 10px 100px;
@@ -226,10 +234,13 @@ header .navbar .navbar-nav li a:hover {
   height: auto;
   display: flex;
   flex-direction: column;
+  background-color: #555;
 }
 #quienesSomos div h2 {
   text-align: center;
   padding: 0.8rem;
+  color: #C3CF0A;
+  font-weight: 600;
 }
 #quienesSomos .nosotras {
   display: flex;
@@ -244,11 +255,6 @@ header .navbar .navbar-nav li a:hover {
 #quienesSomos .card .card-text {
   text-align: center;
   font-weight: 500;
-}
-#quienesSomos .card img {
-  height: 150px;
-  width: 286px;
-  border-radius: 50%/100% 100% 0 0;
 }
 #quienesSomos .seguimos, #quienesSomos .seguimos2 {
   color: #021C1E;
@@ -512,11 +518,6 @@ header .navbar .navbar-nav li a:hover {
     display: flex;
     align-items: baseline;
     padding-right: 50px;
-  }
-  #inicio .seccionesGaleria {
-    display: flex;
-    flex-direction: row;
-    width: auto;
   }
   #contacto form {
     width: 50%;
