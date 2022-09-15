@@ -56,7 +56,16 @@
     //fin cards secciones
 
     //inicio class clientes
-    
+    .clientes{
+        p{
+            font-size: 30px;
+            font-weight: 600;
+            color: $color1;
+            text-align: center;
+            padding: 20px;
+            background-color: $color5;
+        }
+    }
 
 
 
