@@ -4,12 +4,14 @@
     width: 100%;
     display: flex;
     flex-direction: row;
+    //estilo a video
     video{
         position: absolute;
         object-fit: cover;
         width: 100%;
         height: 100vh;
     }
+    //estilo a form de contacto
     form{
         display: flex;
         flex-direction: column;
@@ -55,6 +57,7 @@
             background-color: transparent;
             resize: none;
         }
+        //estilo a boton de enviar
         .boton{
             padding: 18px 55px;
             background-color: #121212;
