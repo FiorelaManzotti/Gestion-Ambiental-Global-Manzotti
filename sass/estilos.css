@@ -147,11 +147,6 @@ header .navbar .navbar-nav li a:hover {
   background-size: cover;
   /* .clientes{
       background-color: $color6;
-      p{
-          font-size: 30px;
-          color: #000;
-          text-align: center;
-      }
   }
   #demo{
       background-color: #fff;
@@ -210,6 +205,13 @@ header .navbar .navbar-nav li a:hover {
   text-align: center;
   padding: 20px;
   background-color: #C3CF0A;
+  text-transform: uppercase;
+}
+#inicio .clientes .carousel {
+  height: 32vh;
+}
+#inicio .clientes .carousel .carousel-item {
+  text-align: center;
 }
 
 #quienesSomos {

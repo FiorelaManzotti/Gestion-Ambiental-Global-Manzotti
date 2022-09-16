@@ -64,6 +64,13 @@
             text-align: center;
             padding: 20px;
             background-color: $color5;
+            text-transform: uppercase;
+        }
+        .carousel{
+            height: 32vh;
+            .carousel-item{
+                text-align: center;
+            }
         }
     }
 
@@ -74,11 +81,6 @@
 
     /* .clientes{
         background-color: $color6;
-        p{
-            font-size: 30px;
-            color: #000;
-            text-align: center;
-        }
     }
     #demo{
         background-color: #fff;
