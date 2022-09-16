@@ -1,18 +1,22 @@
 //inicio estilo pag servicios
 #servicios{
+    background-image: url(../images/bamboo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     div{
+        background-color: rgba(0, 0, 0, 0.6);
         h2{
             text-align: center;
             font-size: 45px;
             padding: 0.8rem;
-            color: $color2;
+            color: $color6;
+            font-weight: 700;
         }
         .animate__animated{
             animation-duration: 3s;
         }  
     }
     .itemsServicios{
-        background-color: $color3;
         height: 100%;
         width: 100%;
         max-width: 100%; 
@@ -31,7 +35,7 @@
         .card{
             border-radius: 5px;
             margin: 5px;
-            filter: grayscale(100%);
+            filter: grayscale(75%);
             transition: all 0.7s;
             &:hover{
                 transform: scale(1.10) ;
@@ -42,11 +46,13 @@
                 h3{
                     font-size: 25px;
                     text-align: center;
+                    color: $color6;
                 }
                 ul{
                     list-style: none;
                     li{
                         font-size: 0.9rem;
+                        color: $color6;
                         text-align: center;
                         padding: 5px 0px;
                         &:not(:last-child){
@@ -76,15 +82,4 @@
         }
     } 
 }
-
-    /* 
-    }
-    .foto8{
-        background-image: url(../images/medioambiente.jpg);
-        background-position: center;
-        background-size: cover;
-        grid-area: foto8;
-    }  */
-
-
 //fin estilo pag servicios

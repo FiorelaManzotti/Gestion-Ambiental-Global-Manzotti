@@ -40,7 +40,6 @@
             }
             .card-text{
                 padding: 5px;
-                background-color: transparent;
                 color: $color1;
                 font-size: 20px;
                 font-weight: 600;
@@ -65,6 +64,10 @@
             padding: 20px;
             background-color: $color5;
             text-transform: uppercase;
+            border-radius: 10%;
+            width: 85%;
+            margin-left: auto;
+            margin-right: auto;
         }
         .carousel{
             height: 32vh;
@@ -73,25 +76,5 @@
             }
         }
     }
-
-
-
-
-
-
-    /* .clientes{
-        background-color: $color6;
-    }
-    #demo{
-        background-color: #fff;
-        height: 180px;
-        width: 100%;
-        align-items: center;
-    }
-    .carousel-control-prev-icon, .carousel-control-next-icon{
-        background-color: $color1;
-        height: 100px;
-    } */
-    //fin class clientes
 }
 //fin estilos pag index
